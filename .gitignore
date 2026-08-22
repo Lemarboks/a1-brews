@@ -3,5 +3,5 @@ dist/
 .DS_Store
 *.log
 .impeccable/chrome-*/
+.impeccable/coffee-*/
 .impeccable/*.png
-
