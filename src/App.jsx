@@ -67,7 +67,7 @@ function Hero() {
 function Story() {
   return <section className="story section" id="story">
     <span className="section-no">01 / THE SPACE</span>
-    <figure><img src={hero900} alt="Painterly concept detail of the A1 Brews atmosphere"/><figcaption>FIG. 01 — CONCEPT STUDY / COFFEE + ART</figcaption></figure>
+    <figure><img src={hero900} width="900" height="600" loading="lazy" decoding="async" alt="Painterly concept detail of the A1 Brews atmosphere"/><figcaption>FIG. 01 — CONCEPT STUDY / COFFEE + ART</figcaption></figure>
     <div className="story-copy"><p className="script">More than coffee</p><h2>A ROOM FOR<br/><span>CREATIVE PEOPLE.</span></h2><p className="story-lead">A1 Brews brings coffee, local art, thrift finds and conversation together in one neighbourhood space.</p><p>Come to pause, browse, make, listen—or simply feel at home.</p><ul><li>Fresh coffee</li><li>Local art and thrift finds</li><li>Creative community events</li></ul><ArrowLink href={FB}>FOLLOW OUR STORY</ArrowLink></div>
   </section>;
 }
@@ -77,7 +77,7 @@ function MenuSection() {
   return <section className="menu-section section" id="menu">
     <span className="section-no">02 / THE COUNTER</span>
     <header><p className="script">From the counter</p><h2>WHAT WE’RE<br/><span>POURING.</span></h2><p>Our selection changes. Ask in store or check Facebook for current items and prices.</p></header>
-    <div className="menu-browser"><div className="categories" role="tablist" aria-label="Drink categories">{Object.keys(menuData).map((item,index)=><button key={item} role="tab" aria-selected={cat===item} onClick={()=>setCat(item)}><small>0{index+1}</small>{item}</button>)}</div><AnimatePresence mode="wait"><motion.div className="menu-list" key={cat} initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>{menuData[cat].map((item,index)=><div key={item}><b>{String(index+1).padStart(2,'0')}</b><span>{item}</span><i>ASK IN STORE</i></div>)}</motion.div></AnimatePresence><ArrowLink href={FB} primary>SEE THE LATEST</ArrowLink></div>
+    <div className="menu-browser"><div className="categories" aria-label="Drink categories">{Object.keys(menuData).map((item,index)=><button key={item} aria-pressed={cat===item} onClick={()=>setCat(item)}><small>0{index+1}</small>{item}</button>)}</div><AnimatePresence mode="wait"><motion.div className="menu-list" key={cat} aria-live="polite" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>{menuData[cat].map((item,index)=><div key={item}><b>{String(index+1).padStart(2,'0')}</b><span>{item}</span><i>ASK IN STORE</i></div>)}</motion.div></AnimatePresence><ArrowLink href={FB} primary>SEE THE LATEST</ArrowLink></div>
   </section>;
 }
 
