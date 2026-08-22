@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { AnimatePresence, MotionConfig, motion } from 'framer-motion';
+import { AnimatePresence, MotionConfig, motion, useReducedMotion } from 'framer-motion';
 
 const FB = 'https://www.facebook.com/profile.php?id=61576917570189';
 const MAP = 'https://www.google.com/maps/search/?api=1&query=No.+4+Monte+Vista+Boulevard,+Cape+Town';
@@ -51,8 +51,11 @@ function Navbar() {
 }
 
 function Hero() {
+  const reduceMotion = useReducedMotion();
   return <section className="hero" id="top">
-    <motion.img src={hero1536} srcSet={`${hero900} 900w, ${hero1536} 1536w`} sizes="100vw" width="1536" height="1024" fetchPriority="high" alt="Expressionist concept artwork of a lively café" initial={{scale:1.04}} animate={{scale:1}} transition={{duration:1.1,ease:[.16,1,.3,1]}} />
+    {reduceMotion
+      ? <img src={hero1536} srcSet={`${hero900} 900w, ${hero1536} 1536w`} sizes="100vw" width="1536" height="1024" fetchPriority="high" alt="Expressionist concept artwork of a lively café" />
+      : <motion.video autoPlay muted loop playsInline preload="metadata" poster={hero1536} aria-hidden="true" initial={{scale:1.025}} animate={{scale:1}} transition={{duration:1.1,ease:[.16,1,.3,1]}}><source src="./assets/a1-hero-motion.mp4" type="video/mp4" /></motion.video>}
     <div className="hero-shade" />
     <motion.div className="hero-copy" initial={{opacity:0,y:18}} animate={{opacity:1,y:0}} transition={{duration:.7,delay:.12,ease:[.16,1,.3,1]}}>
       <p className="script">Coffee, colour, community.</p>
@@ -60,7 +63,7 @@ function Hero() {
       <p>Neighbourhood coffee and art in Monte Vista. Made for slow mornings, bright ideas, and good company.</p>
       <div><ArrowLink href={MAP} primary>GET DIRECTIONS</ArrowLink><a className="text-link" href="#story">OUR SPACE ↓</a></div>
     </motion.div>
-    <p className="art-label">CONCEPT ARTWORK / A1 BREWS</p>
+    <p className="art-label">A1 BREWS / MOTION STUDY</p>
   </section>;
 }
 
