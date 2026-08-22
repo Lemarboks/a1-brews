@@ -1,186 +1,181 @@
 ---
 name: A1 Brews
-description: A tactile coffee-and-art studio identity built from roast tones, canvas paper, and sparing artist pigments.
+description: An expressionist café broadside where coffee, art, thrift, and community share one painted room.
 colors:
-  roasted-brown: "#552a18"
-  dark-roast: "#32170f"
-  canvas-cream: "#f3e7cf"
-  terracotta-paint: "#c9472b"
-  espresso: "#1e100c"
-  coffee-ink: "#2a1711"
-  cobalt-pigment: "#294ea2"
-  ochre-pigment: "#d49331"
-  map-paper: "#d9c49d"
-  pale-roast-copy: "#ead9bd"
-  white: "#ffffff"
+  gallery-black: "#100d0a"
+  coffee-ink: "#20120b"
+  parchment: "#ead7aa"
+  parchment-light: "#f3e5bd"
+  parchment-muted: "#d6c18e"
+  molten-amber: "#f0a51b"
+  burnt-orange: "#d65418"
+  oxblood: "#7c1f16"
+  petrol-blue: "#0e3b4c"
+  studio-teal: "#315c59"
 typography:
-  display: { fontFamily: "Archivo Black, Impact, sans-serif", fontSize: "clamp(4.2rem, 8.4vw, 8.2rem)", fontWeight: 900, lineHeight: 0.84, letterSpacing: "-0.04em" }
-  headline: { fontFamily: "Archivo Black, Impact, sans-serif", fontSize: "clamp(3rem, 6vw, 6rem)", fontWeight: 900, lineHeight: 0.94, letterSpacing: "-0.04em" }
-  title: { fontFamily: "Archivo Black, Impact, sans-serif", fontSize: "clamp(1.55rem, 2.4vw, 2.25rem)", fontWeight: 900, lineHeight: 1 }
+  display: { fontFamily: "Anton, Impact, sans-serif", fontSize: "clamp(4rem, 8vw, 7.3rem)", fontWeight: 400, lineHeight: 0.9, letterSpacing: "-0.025em" }
+  headline: { fontFamily: "Anton, Impact, sans-serif", fontSize: "clamp(3.2rem, 6.8vw, 6rem)", fontWeight: 400, lineHeight: 0.92, letterSpacing: "-0.02em" }
+  title: { fontFamily: "Anton, Impact, sans-serif", fontSize: "clamp(2.4rem, 4vw, 4rem)", fontWeight: 400, lineHeight: 0.9 }
   body: { fontFamily: "Barlow Condensed, Arial Narrow, sans-serif", fontSize: "1.15rem", fontWeight: 500, lineHeight: 1.5 }
-  label: { fontFamily: "Barlow Condensed, Arial Narrow, sans-serif", fontSize: "1rem", fontWeight: 900 }
+  label: { fontFamily: "Barlow Condensed, Arial Narrow, sans-serif", fontSize: "1rem", fontWeight: 800 }
 rounded:
-  circle: "50%"
-  map-pin: "50% 50% 50% 0"
+  none: "0"
 spacing:
-  control-y: "1rem"
-  control-x: "1.3rem"
-  section-edge: "clamp(1.25rem, 4vw, 4.5rem)"
+  control-y: "0.95rem"
+  control-x: "1.25rem"
+  page-edge: "clamp(1.2rem, 4vw, 4.5rem)"
   section-block: "clamp(5rem, 10vw, 10rem)"
 components:
-  button-primary: { backgroundColor: "{colors.terracotta-paint}", textColor: "{colors.white}", typography: "{typography.label}", padding: "{spacing.control-y} {spacing.control-x}" }
-  button-light: { backgroundColor: "{colors.canvas-cream}", textColor: "{colors.roasted-brown}", typography: "{typography.label}", padding: "{spacing.control-y} {spacing.control-x}" }
-  navigation-cta: { backgroundColor: "{colors.terracotta-paint}", textColor: "{colors.white}", typography: "{typography.label}", padding: "0.7rem 1rem" }
-  location-chip: { textColor: "{colors.roasted-brown}", typography: "{typography.label}" }
+  button-oxblood: { backgroundColor: "{colors.oxblood}", textColor: "{colors.parchment-light}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "{spacing.control-y} {spacing.control-x}" }
+  button-petrol: { backgroundColor: "{colors.petrol-blue}", textColor: "{colors.parchment-light}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "{spacing.control-y} {spacing.control-x}" }
+  button-amber: { backgroundColor: "{colors.molten-amber}", textColor: "{colors.gallery-black}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "{spacing.control-y} {spacing.control-x}" }
+  paint-label: { backgroundColor: "{colors.petrol-blue}", textColor: "{colors.parchment-light}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "0.35rem 0.65rem" }
+  navigation-cta: { backgroundColor: "{colors.oxblood}", textColor: "{colors.parchment-light}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "0.7rem 1rem" }
 ---
 
 # Design System: A1 Brews
 
 ## Overview
 
-**Creative North Star: "The Working Coffee-and-Art Studio"**
+**Creative North Star: "The Expressionist Café Broadside"**
 
-A1 Brews feels like a neighbourhood coffee counter sharing a room with an active artist’s studio. Roasted-coffee fields and canvas-cream paper establish the material base; terracotta brush marks, ochre strokes, and rare cobalt pigment bring the energy of work being made nearby.
+A1 Brews is presented as a living café canvas: a dense, warm room where coffee, local art, thrift, and community sit at the same table. The visual world translates the pinned expressionist reference into a broadside-like interface—near-black framing, parchment panels, molten amber light, burnt-orange marks, oxblood emphasis, and blue-green pigment.
 
-The system keeps a local-wayfinding collage structure but shifts its emotional centre toward warm, tactile craft. Condensed sign type, destination marks, map routes, framed canvases, and firm offset shadows refuse both generic beige cafés and sterile white galleries.
+The production artwork is the emotional anchor: visible impasto, crowded café energy, a monumental cup, painterly light, and art materials in use. Around it, poster-scale typography, rough-edged labels, split-canvas staging, hard borders, and physical offset shadows give the site the urgency of a hand-pulled event poster rather than a polished café template or sterile gallery.
 
 **Key Characteristics:**
 
-- Roast-led brown and cream fields with terracotta as action paint.
-- Cobalt and ochre used as sparing, high-impact artist pigments.
-- Oversized sign lettering paired with practical condensed copy.
-- Brush blocks, stamped circles, route lines, and framed canvases.
-- Flat material surfaces with hard physical offsets.
+- Near-black framing against parchment message panels.
+- Expressionist impasto imagery with coffee and community sharing focus.
+- Anton poster typography paired with Barlow Condensed utility copy.
+- Oxblood, amber, burnt orange, petrol, and teal used as saturated paint fields.
+- Split-canvas hero, oversized poster blocks, paint labels, and hard offsets.
 
 ## Colors
 
-The palette begins with coffee and canvas, then introduces pigment only where a mark, artwork, or directional moment needs energy.
+The palette behaves like oil paint under warm café light: dense black framing, aged paper, molten highlights, red-orange heat, and deep blue-green shadow.
 
 ### Primary
 
-- **Roasted Brown:** Principal brand brown for the wordmark, hero display, route labels, and map lines.
-- **Dark Roast:** Deep sectional field for the location destination.
+- **Gallery Black:** The page frame, header, footer, artwork ground, border color, and universal hard-shadow tone.
+- **Parchment:** The principal reading surface and warm paper counterweight to the dark frame.
 
 ### Secondary
 
-- **Terracotta Paint:** Primary action and annotation color for buttons, labels, nodes, stamps, focus rings, and the social field.
+- **Molten Amber:** High-energy highlight for actions, poster fields, route punctuation, and illuminated details.
+- **Burnt Orange:** Structural paint stripe, social closing field, border accent, and active warmth.
+- **Oxblood:** Emotional emphasis for the hero keyword, manifesto field, rust button, and poster lettering.
 
 ### Tertiary
 
-- **Cobalt Pigment:** Rare cool counterpoint for route arcs, the photographed cup, and framed artwork.
-- **Ochre Pigment:** Warm studio accent for headline strokes, route arcs, canvas grounds, and brush blocks.
+- **Petrol Blue:** Cool paint label, community panel, Facebook action, and rhythm field.
+- **Studio Teal:** Map field and supporting blue-green material surface.
 
 ### Neutral
 
-- **Canvas Cream:** Default page ground, frame, light control, and text on dark fields.
-- **Espresso:** Deepest surface and shadow tone for hero art, art introduction, footer, and offsets.
-- **Coffee Ink:** Default copy on light canvas.
-- **Map Paper:** Aged paper surface behind the drawn map.
-- **Pale Roast Copy:** Supporting copy on Dark Roast.
-- **White:** High-contrast text for terracotta controls and stamps.
+- **Coffee Ink:** Body copy on parchment.
+- **Parchment Light:** Highest-contrast warm text on saturated or black fields.
+- **Parchment Muted:** Secondary notes on near-black.
 
 ### Named Rules
 
-**The Roast Leads Rule.** Brown, cream, terracotta, and espresso define the brand first; pigment never replaces the coffee-led base.
+**The Black Frame Rule.** Gallery Black must visibly frame the experience through headers, borders, gutters, or hard shadows; it gives the paint fields their force.
 
-**The Pigment Is Precious Rule.** Cobalt and ochre are intentional artist marks, not general interface colors.
+**The Painted Field Rule.** Saturated colors occupy decisive poster-scale regions or specific labels. Avoid scattering them as tiny decorative accents.
 
 ## Typography
 
-**Display Font:** Archivo Black (Impact fallback)  
+**Display Font:** Anton (Impact fallback)  
 **Body Font:** Barlow Condensed (Arial Narrow fallback)
 
-**Character:** Archivo Black reads like painted shop signage and block-print posters. Barlow Condensed supplies the utilitarian gallery-label and neighbourhood-wayfinding voice.
+**Character:** Anton has the blunt vertical force of a gig poster or painted window sign. Barlow Condensed keeps longer copy practical, compressed, and slightly editorial; its italic option belongs only in occasional human annotations.
 
 ### Hierarchy
 
-- **Display** (900, 4.2rem–8.2rem, 0.84): Stacked hero slogan; uppercase and tightly tracked.
-- **Headline** (900, 3rem–6rem, 0.94): Section declarations and destination prompts.
-- **Title** (900, 1.55rem–2.25rem, 1): Timeline stages and smaller poster statements.
-- **Body** (500, 1.15rem base, about 1.5): Descriptive and practical copy; leads may scale to about 2rem.
-- **Label** (800–900, compact, uppercase): Navigation, labels, buttons, captions, and stamps.
+- **Display** (400, 4rem–7.3rem, 0.9): Hero stack and dominant calls; uppercase and tightly set.
+- **Headline** (400, 3.2rem–6rem, 0.92): Manifesto, happenings, visit, and major poster statements.
+- **Title** (400, 2.4rem–4rem, 0.9): Four-world headings and strong local statements.
+- **Body** (500, 1.15rem, 1.5): Descriptive and practical content; lead copy scales to 1.6rem–2.4rem.
+- **Label** (800, compact, uppercase): Navigation, buttons, paint labels, captions, and annotations.
 
 ### Named Rules
 
-**The Painted Sign Rule.** Major headings stay short, uppercase, tightly set, and strong enough for a shopfront.
+**The Broadside Voice Rule.** Display copy stays short, uppercase, and compositionally oversized; paragraph-length content never uses Anton.
 
-**The Ochre Stroke Rule.** Highlight a key display phrase with a shallow, rotated ochre underline rather than recoloring the text.
+**The One Red Word Rule.** Oxblood may isolate one emotionally decisive word inside a black display stack, as “Community” does in the hero.
 
 ## Layout
 
-Desktop alternates asymmetric two-column stages with full-width studio fields. The hero uses an approximately 41/59 split; art and location sections reverse visual weight. Copy aligns to stable fluid edges while circular objects, route arcs, brush blocks, and rotated canvases interrupt the grid.
+The hero is a full-height split canvas: approximately 39% parchment message panel and 61% expressionist artwork. Subsequent sections alternate two-column manifestos, four poster fields, rotated broadside panels, rhythm strips, and map-plus-address staging. Heavy black borders and gutters make neighboring color fields feel separately printed and assembled.
 
-At 900px, major columns stack and location copy moves before the map. At 680px, the header becomes 74px, navigation becomes a disclosure, actions stack, the three-stop route becomes vertical, and the footer becomes one column.
+At 900px, hero, manifesto, happenings, and visit sections become one column; the visit copy moves above its map. At 680px, navigation becomes a disclosure, the four-world grid becomes one column, the hero artwork reduces to 470px, poster borders become thinner, and closing lines lose their desktop indents.
 
-**The Clear Route Rule.** Collage may overlap and rotate, but the path to directions or Facebook remains simple and vertical.
+**The Split Canvas Rule.** Pair one legible message field with one immersive artifact or poster field; do not subdivide either side into dashboard-like cards.
 
 ## Elevation & Depth
 
-Depth is physical and studio-made. Controls, coffee medallion, stamps, map pin, and framed art use crisp or translucent espresso offsets. Large backgrounds stay flat; color, borders, and pigment marks establish hierarchy.
+Depth comes from printed sheets, mounted paintings, and paint daubs. Buttons and labels use square black offset shadows; the happenings poster is rotated and enlarged inside a black border; the map pin uses a black frame with an amber offset. Artwork itself supplies deep painterly space while the interface remains materially flat.
 
 ### Shadow Vocabulary
 
-- **Control Press** (`6px 6px 0 #1e100c`): Compresses to a 3px offset on hover.
-- **Coffee Medallion** (`18px 22px 0 rgba(36,19,14,.35)`): Separates the circular hero image.
-- **Framed Canvas** (`18px 22px 0 rgba(36,19,14,.45)`): Layers overlapping artwork.
-- **Stamped Marker** (`8px 9px 0 #1e100c`): Lifts the destination stamp.
+- **Paint Label** (`5px 6px 0 #100d0a`): Small rough-edged label lift.
+- **Poster Button** (`7px 8px 0 #100d0a`): Default action lift, compressed to 4px by 5px on hover.
+- **Map Marker** (`14px 16px 0 #f0a51b`): Amber offset behind the black-framed location block.
+- **Map Divider** (`8px 0 0 #100d0a`): Desktop split-canvas seam; becomes a top offset when stacked.
 
-**The Hard Offset Rule.** Shadows describe stacked material; never soften them into glossy card elevation.
+**The Printed Layers Rule.** Shadows are opaque, directional, and hard; never introduce soft ambient card shadows or glass effects.
 
 ## Shapes
 
-The base page and controls are square and poster-like. Circles mark coffee, route nodes, destinations, and the stamped identity. The location pin is a rotated teardrop; art uses thickly framed, rotated rectangles. Pigment appears as long blocks and arcs rather than decorative blobs.
-
-**The Marked Circle Rule.** A circle identifies coffee, a route point, or a destination; it is not a default container radius.
+The form language is rectangular, cropped, and rough-edged. Buttons, labels, panels, world blocks, and the map marker have square corners. Rotation of -1° to -5° supplies handmade irregularity. Thick black borders, overscaled background letters, and paint stripes create silhouettes; no rounded-card vocabulary is present.
 
 ## Components
 
 ### Buttons
 
-- **Shape:** Square-edged printed placards.
-- **Primary:** Terracotta Paint, white uppercase text, 1rem by 1.3rem padding, hard Espresso offset.
-- **Hover / Focus:** Shifts 3px while compressing its shadow; focus uses a 3px terracotta outline.
-- **Light:** Canvas Cream with Roasted Brown text on Dark Roast.
-- **Contextual Dark:** Espresso on the Terracotta social field.
+- **Shape:** Square poster label with a hard black offset.
+- **Oxblood:** Directions action on parchment.
+- **Petrol:** Facebook action on near-black.
+- **Amber:** Map action with black text.
+- **Hover / Focus:** Shift 3px down/right with a slight -1° rotation; focus uses a 3px Amber outline at 4px offset.
 
 ### Chips
 
-- **Style:** Unboxed Roasted Brown uppercase location label with a Terracotta circular marker.
-- **State:** Informational only.
+- **Paint Label:** Petrol rectangle, Parchment Light uppercase text, slight -1° rotation, black offset.
+- **Light Variant:** Parchment surface with Gallery Black text on dark sections.
 
 ### Cards / Containers
 
-- **Corner Style:** Square route items and canvases; circles only for meaningful markers.
-- **Background:** Large material fields replace generic cards.
-- **Shadow Strategy:** Timeline content is flat; focal art and destinations receive offsets.
-- **Border:** Route nodes combine Canvas Cream and Espresso; artwork has a thick Canvas Cream frame.
+- **Poster Fields:** Two-up grid of Amber, Petrol, Parchment, and Burnt Orange with 4px Gallery Black borders.
+- **World Marker:** Oversized Anton character paired with a title and compact description.
+- **Happenings Poster:** Amber sheet, 18px black frame, -2° rotation, slight scale-up.
 
 ### Navigation
 
-Canvas Cream sign strip with an Espresso rule and Roasted Brown stamped wordmark. Links are heavy and uppercase; Facebook is terracotta. Below 680px, a three-line control reveals a stacked panel and closes after selection.
+An 84px Gallery Black header with Parchment type and a 3px Burnt Orange rule. The A1 mark uses Amber; ordinary links become Amber on hover, while Facebook is an Oxblood block. Below 680px, an Amber three-line control reveals a stacked black panel.
 
-### Destination Stamp
+### Split-Canvas Hero
 
-A rotated Terracotta circle combines A1 with a compact caption, marking the shop as the route endpoint.
+The left parchment panel owns message, promise, and directions. The right side is an edge-to-edge expressionist painting with a monumental coffee cup and active café background. A small black caption labels the original concept artwork without competing with it.
 
-### Art Canvas
+### Paint Pin
 
-Overlapping rectangles use Canvas Cream frames, Espresso offsets, one-word display labels, and diagonal Terracotta, Ochre, Cream, and Cobalt bands.
+A square Burnt Orange marker with 8px Gallery Black border and large Amber offset. It is rotated -5° and uses oversized Anton A1 above a compact label.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** establish compositions with a roast, espresso, or canvas base.
-- **Do** use Terracotta Paint to connect actions with handmade annotation.
-- **Do** reserve Cobalt and Ochre for art, route, and brush-mark moments.
-- **Do** keep headings compact enough to behave like painted signs.
-- **Do** preserve a direct mobile route to address, directions, and Facebook.
+- **Do** let impasto café artwork carry atmosphere at architectural scale.
+- **Do** use black borders and gutters to frame saturated poster fields.
+- **Do** keep color blocks large, categorical, and compositionally intentional.
+- **Do** pair Anton statements with condensed, readable Barlow copy.
+- **Do** preserve the split between immersive art and actionable information.
 
 ### Don't:
 
-- **Don't** return to bright-blue-first branding; cobalt is a sparing pigment.
-- **Don't** drift into monochrome beige café minimalism or sterile gallery styling.
-- **Don't** use rounded cards as a generic container pattern.
-- **Don't** replace hard offsets with diffuse dashboard shadows.
-- **Don't** let brush marks obscure copy, navigation, or visit actions.
+- **Don't** soften the world into beige café minimalism or sterile gallery white.
+- **Don't** crop production artwork so tightly that the café community disappears.
+- **Don't** use rounded cards, pill buttons, gradients, glass, or diffuse shadows.
+- **Don't** turn every phrase into display type; contrast depends on quieter body copy.
+- **Don't** scatter saturated colors as arbitrary badges when they can own a full poster field.

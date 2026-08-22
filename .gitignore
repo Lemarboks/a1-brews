@@ -5,3 +5,4 @@ dist/
 .impeccable/chrome-*/
 .impeccable/coffee-*/
 .impeccable/*.png
+.impeccable/references/
