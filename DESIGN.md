@@ -1,43 +1,24 @@
 ---
 name: A1 Brews
-description: A bright local-wayfinding collage for a neighbourhood coffee, art, thrift, and community space.
+description: A tactile coffee-and-art studio identity built from roast tones, canvas paper, and sparing artist pigments.
 colors:
-  waypoint-blue: "#123ca8"
-  waypoint-blue-dark: "#0b2e87"
-  milk-paper: "#f6f2e8"
-  marker-orange: "#f45114"
-  espresso-brown: "#24130e"
-  sign-ink: "#101010"
+  roasted-brown: "#552a18"
+  dark-roast: "#32170f"
+  canvas-cream: "#f3e7cf"
+  terracotta-paint: "#c9472b"
+  espresso: "#1e100c"
+  coffee-ink: "#2a1711"
+  cobalt-pigment: "#294ea2"
+  ochre-pigment: "#d49331"
+  map-paper: "#d9c49d"
+  pale-roast-copy: "#ead9bd"
   white: "#ffffff"
-  mist-blue: "#e3e8fa"
 typography:
-  display:
-    fontFamily: "Archivo Black, Impact, sans-serif"
-    fontSize: "clamp(4.2rem, 8.4vw, 8.2rem)"
-    fontWeight: 900
-    lineHeight: 0.84
-    letterSpacing: "-0.04em"
-  headline:
-    fontFamily: "Archivo Black, Impact, sans-serif"
-    fontSize: "clamp(3rem, 6vw, 6rem)"
-    fontWeight: 900
-    lineHeight: 0.94
-    letterSpacing: "-0.04em"
-  title:
-    fontFamily: "Archivo Black, Impact, sans-serif"
-    fontSize: "clamp(1.55rem, 2.4vw, 2.25rem)"
-    fontWeight: 900
-    lineHeight: 1
-  body:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "1.15rem"
-    fontWeight: 500
-    lineHeight: 1.5
-  label:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "1rem"
-    fontWeight: 900
-    letterSpacing: "normal"
+  display: { fontFamily: "Archivo Black, Impact, sans-serif", fontSize: "clamp(4.2rem, 8.4vw, 8.2rem)", fontWeight: 900, lineHeight: 0.84, letterSpacing: "-0.04em" }
+  headline: { fontFamily: "Archivo Black, Impact, sans-serif", fontSize: "clamp(3rem, 6vw, 6rem)", fontWeight: 900, lineHeight: 0.94, letterSpacing: "-0.04em" }
+  title: { fontFamily: "Archivo Black, Impact, sans-serif", fontSize: "clamp(1.55rem, 2.4vw, 2.25rem)", fontWeight: 900, lineHeight: 1 }
+  body: { fontFamily: "Barlow Condensed, Arial Narrow, sans-serif", fontSize: "1.15rem", fontWeight: 500, lineHeight: 1.5 }
+  label: { fontFamily: "Barlow Condensed, Arial Narrow, sans-serif", fontSize: "1rem", fontWeight: 900 }
 rounded:
   circle: "50%"
   map-pin: "50% 50% 50% 0"
@@ -47,170 +28,159 @@ spacing:
   section-edge: "clamp(1.25rem, 4vw, 4.5rem)"
   section-block: "clamp(5rem, 10vw, 10rem)"
 components:
-  button-primary:
-    backgroundColor: "{colors.marker-orange}"
-    textColor: "{colors.white}"
-    typography: "{typography.label}"
-    padding: "{spacing.control-y} {spacing.control-x}"
-  button-light:
-    backgroundColor: "{colors.milk-paper}"
-    textColor: "{colors.waypoint-blue}"
-    typography: "{typography.label}"
-    padding: "{spacing.control-y} {spacing.control-x}"
-  navigation-cta:
-    backgroundColor: "{colors.marker-orange}"
-    textColor: "{colors.white}"
-    typography: "{typography.label}"
-    padding: "0.7rem 1rem"
-  location-chip:
-    textColor: "{colors.waypoint-blue}"
-    typography: "{typography.label}"
+  button-primary: { backgroundColor: "{colors.terracotta-paint}", textColor: "{colors.white}", typography: "{typography.label}", padding: "{spacing.control-y} {spacing.control-x}" }
+  button-light: { backgroundColor: "{colors.canvas-cream}", textColor: "{colors.roasted-brown}", typography: "{typography.label}", padding: "{spacing.control-y} {spacing.control-x}" }
+  navigation-cta: { backgroundColor: "{colors.terracotta-paint}", textColor: "{colors.white}", typography: "{typography.label}", padding: "0.7rem 1rem" }
+  location-chip: { textColor: "{colors.roasted-brown}", typography: "{typography.label}" }
 ---
 
 # Design System: A1 Brews
 
 ## Overview
 
-**Creative North Star: "The Local Wayfinding Collage"**
+**Creative North Star: "The Working Coffee-and-Art Studio"**
 
-A1 Brews looks like the brightest landmark on a familiar neighbourhood route. The visual system combines municipal wayfinding, hand-painted shop signage, gallery labels, and layered art materials into a confident identity that makes coffee and creativity feel inseparable.
+A1 Brews feels like a neighbourhood coffee counter sharing a room with an active artist’s studio. Roasted-coffee fields and canvas-cream paper establish the material base; terracotta brush marks, ochre strokes, and rare cobalt pigment bring the energy of work being made nearby.
 
-The world is graphic, warm, and deliberately physical: ultramarine fields behave like destination signs, milk-white surfaces feel like paper, tangerine marks point and invite, and espresso brown adds the weight of coffee and ink. Oversized type, route lines, circular markers, rotated frames, and hard-offset shadows keep the experience lively without weakening its practical purpose of helping visitors find the shop.
+The system keeps a local-wayfinding collage structure but shifts its emotional centre toward warm, tactile craft. Condensed sign type, destination marks, map routes, framed canvases, and firm offset shadows refuse both generic beige cafés and sterile white galleries.
 
 **Key Characteristics:**
 
-- High-contrast ultramarine, milk paper, tangerine, and espresso color blocking.
-- Condensed sign typography paired with oversized, tightly set display lettering.
-- Circular destination markers, route lines, map geometry, and framed art canvases.
-- Flat fields with tactile hard-offset shadows instead of soft luxury styling.
-- Mobile-first stacking that preserves strong type, bold color, and clear visit actions.
+- Roast-led brown and cream fields with terracotta as action paint.
+- Cobalt and ochre used as sparing, high-impact artist pigments.
+- Oversized sign lettering paired with practical condensed copy.
+- Brush blocks, stamped circles, route lines, and framed canvases.
+- Flat material surfaces with hard physical offsets.
 
 ## Colors
 
-The palette reads as neighbourhood signage crossed with art-room materials: decisive blue anchors the route, orange marks action, milk softens the field, and espresso grounds it.
+The palette begins with coffee and canvas, then introduces pigment only where a mark, artwork, or directional moment needs energy.
 
 ### Primary
 
-- **Waypoint Blue:** The dominant brand field for hero imagery, location sections, map lines, headlines, and the A1 wordmark.
-- **Deep Waypoint Blue:** A darker supporting blue reserved for tonal depth where the primary needs a stronger edge.
+- **Roasted Brown:** Principal brand brown for the wordmark, hero display, route labels, and map lines.
+- **Dark Roast:** Deep sectional field for the location destination.
 
 ### Secondary
 
-- **Marker Orange:** The action and annotation color for primary calls to action, section labels, route markers, focus rings, and energetic full-width fields.
+- **Terracotta Paint:** Primary action and annotation color for buttons, labels, nodes, stamps, focus rings, and the social field.
+
+### Tertiary
+
+- **Cobalt Pigment:** Rare cool counterpoint for route arcs, the photographed cup, and framed artwork.
+- **Ochre Pigment:** Warm studio accent for headline strokes, route arcs, canvas grounds, and brush blocks.
 
 ### Neutral
 
-- **Milk Paper:** The default page ground, framed-art border, light button surface, and warm contrast against blue and espresso.
-- **Espresso Brown:** The coffee-led grounding tone for dark feature fields and hard-offset shadows.
-- **Sign Ink:** The default body-copy color on light surfaces.
-- **White:** High-contrast action and section text where the warmer milk tone is not used.
-- **Mist Blue:** Muted supporting copy on the blue location field.
+- **Canvas Cream:** Default page ground, frame, light control, and text on dark fields.
+- **Espresso:** Deepest surface and shadow tone for hero art, art introduction, footer, and offsets.
+- **Coffee Ink:** Default copy on light canvas.
+- **Map Paper:** Aged paper surface behind the drawn map.
+- **Pale Roast Copy:** Supporting copy on Dark Roast.
+- **White:** High-contrast text for terracotta controls and stamps.
 
 ### Named Rules
 
-**The Destination Blue Rule.** Waypoint Blue owns large fields and major headings; it is a navigational anchor, not a minor decorative accent.
+**The Roast Leads Rule.** Brown, cream, terracotta, and espresso define the brand first; pigment never replaces the coffee-led base.
 
-**The Orange Means Energy Rule.** Use Marker Orange for actions, annotations, nodes, and creative interruptions. Its role is to move the eye or prompt movement.
+**The Pigment Is Precious Rule.** Cobalt and ochre are intentional artist marks, not general interface colors.
 
 ## Typography
 
-**Display Font:** Archivo Black (with Impact and sans-serif fallbacks)  
-**Body Font:** Barlow Condensed (with Arial Narrow and sans-serif fallbacks)
+**Display Font:** Archivo Black (Impact fallback)  
+**Body Font:** Barlow Condensed (Arial Narrow fallback)
 
-**Character:** Archivo Black gives headlines the force of hand-painted exterior signage, while Barlow Condensed keeps practical copy compact, direct, and locally familiar. The pairing is bold without becoming corporate.
+**Character:** Archivo Black reads like painted shop signage and block-print posters. Barlow Condensed supplies the utilitarian gallery-label and neighbourhood-wayfinding voice.
 
 ### Hierarchy
 
-- **Display** (900, responsive 4.2rem–8.2rem, 0.84 line-height): Hero slogans only; uppercase, tightly tracked, and allowed to dominate the first viewport.
-- **Headline** (900, responsive 3rem–6rem, 0.94 line-height): Section statements and visit prompts, uppercase with compact line stacking.
-- **Title** (900, responsive 1.55rem–2.25rem, 1 line-height): Route-step titles and smaller emphatic statements.
-- **Body** (500, 1.15rem base, approximately 1.5 line-height): Descriptive and practical copy; important introductions scale larger and stay near 49–62 characters per line.
-- **Label** (800–900, compact sizes, uppercase): Navigation, chips, section labels, buttons, stamps, and map captions.
+- **Display** (900, 4.2rem–8.2rem, 0.84): Stacked hero slogan; uppercase and tightly tracked.
+- **Headline** (900, 3rem–6rem, 0.94): Section declarations and destination prompts.
+- **Title** (900, 1.55rem–2.25rem, 1): Timeline stages and smaller poster statements.
+- **Body** (500, 1.15rem base, about 1.5): Descriptive and practical copy; leads may scale to about 2rem.
+- **Label** (800–900, compact, uppercase): Navigation, labels, buttons, captions, and stamps.
 
 ### Named Rules
 
-**The Sign First Rule.** Major headings behave like public signs: short, uppercase, tightly tracked, and immediately legible.
+**The Painted Sign Rule.** Major headings stay short, uppercase, tightly set, and strong enough for a shopfront.
 
-**The Condensed Utility Rule.** Supporting copy and controls use the condensed family so practical information stays compact beside the oversized display voice.
+**The Ochre Stroke Rule.** Highlight a key display phrase with a shallow, rotated ochre underline rather than recoloring the text.
 
 ## Layout
 
-The desktop system alternates asymmetric two-column stages with full-width color fields. The hero uses an approximately 41/59 split, the art and location sections reverse the visual weight, and content sections rely on generous fluid edge padding and deep vertical spacing. Circular focal objects and rotated canvases deliberately interrupt the grid while copy remains aligned to stable page edges.
+Desktop alternates asymmetric two-column stages with full-width studio fields. The hero uses an approximately 41/59 split; art and location sections reverse visual weight. Copy aligns to stable fluid edges while circular objects, route arcs, brush blocks, and rotated canvases interrupt the grid.
 
-At 900px, major two-column sections collapse to one column and the location copy moves ahead of its map. At 680px, the header reduces from 88px to 74px, navigation becomes a stacked disclosure, the three-step horizontal route becomes a vertical timeline, actions stack, and the footer becomes a single column. Fluid `clamp()` values protect the bold type and spacing between breakpoints.
+At 900px, major columns stack and location copy moves before the map. At 680px, the header becomes 74px, navigation becomes a disclosure, actions stack, the three-stop route becomes vertical, and the footer becomes one column.
 
-**The Route Before Decoration Rule.** Even when geometry overlaps or rotates, reading order, section entry points, and visit actions stay on a simple vertical route.
+**The Clear Route Rule.** Collage may overlap and rotate, but the path to directions or Facebook remains simple and vertical.
 
 ## Elevation & Depth
 
-Depth is tactile and structural rather than ambient. Buttons, the coffee medallion, destination stamp, map pin, and art canvases use firm offset shadows in espresso or translucent espresso, making elements feel screen-printed, mounted, or physically layered. Large surfaces otherwise remain flat and are separated by color blocking or crisp borders.
+Depth is physical and studio-made. Controls, coffee medallion, stamps, map pin, and framed art use crisp or translucent espresso offsets. Large backgrounds stay flat; color, borders, and pigment marks establish hierarchy.
 
 ### Shadow Vocabulary
 
-- **Control Offset** (`6px 6px 0 #24130e`): Default button lift; compresses to `3px 3px 0 #24130e` while the control shifts on hover.
-- **Object Offset** (`18px 22px 0 rgba(36,19,14,.35)`): Coffee medallion lift on the blue hero field.
-- **Canvas Offset** (`18px 22px 0 rgba(36,19,14,.45)`): Stronger gallery-frame layering on the art wall.
-- **Marker Offset** (`8px 9px 0 #24130e`): Compact stamp lift; the map pin uses a related translucent 8px by 10px offset.
+- **Control Press** (`6px 6px 0 #1e100c`): Compresses to a 3px offset on hover.
+- **Coffee Medallion** (`18px 22px 0 rgba(36,19,14,.35)`): Separates the circular hero image.
+- **Framed Canvas** (`18px 22px 0 rgba(36,19,14,.45)`): Layers overlapping artwork.
+- **Stamped Marker** (`8px 9px 0 #1e100c`): Lifts the destination stamp.
 
-**The Hard Shadow Rule.** Use offset shadows to imply printed or mounted objects; do not introduce diffuse card shadows or glossy elevation.
+**The Hard Offset Rule.** Shadows describe stacked material; never soften them into glossy card elevation.
 
 ## Shapes
 
-The base layout is square-edged and poster-like. Curves are reserved for meaning: circles identify destinations, coffee, route nodes, and the hand-drawn A1 stamp. The map pin uses a rotated teardrop silhouette, while gallery canvases remain rectangular, thickly framed, and slightly rotated. Borders are crisp and typically use Waypoint Blue or Milk Paper at 2–15px depending on scale.
+The base page and controls are square and poster-like. Circles mark coffee, route nodes, destinations, and the stamped identity. The location pin is a rotated teardrop; art uses thickly framed, rotated rectangles. Pigment appears as long blocks and arcs rather than decorative blobs.
 
-**The Meaningful Circle Rule.** Circular forms mark a destination, a route point, or the coffee focal object; they are not a general-purpose container shape.
+**The Marked Circle Rule.** A circle identifies coffee, a route point, or a destination; it is not a default container radius.
 
 ## Components
 
 ### Buttons
 
-Buttons feel like small printed placards that can be physically pressed.
-
-- **Shape:** Square-edged with no border radius.
-- **Primary:** Marker Orange with white uppercase label text, spacious inline gap, 1rem by 1.3rem padding, and a hard espresso offset shadow.
-- **Hover / Focus:** Hover shifts the button 3px down and right while compressing its shadow; keyboard focus receives a 3px Marker Orange outline with 4px offset.
-- **Light:** Milk Paper with Waypoint Blue text for use on blue fields.
-- **Contextual Blue:** The social callout reuses the primary button structure with a Waypoint Blue background on orange.
+- **Shape:** Square-edged printed placards.
+- **Primary:** Terracotta Paint, white uppercase text, 1rem by 1.3rem padding, hard Espresso offset.
+- **Hover / Focus:** Shifts 3px while compressing its shadow; focus uses a 3px terracotta outline.
+- **Light:** Canvas Cream with Roasted Brown text on Dark Roast.
+- **Contextual Dark:** Espresso on the Terracotta social field.
 
 ### Chips
 
-- **Style:** The location chip is an unboxed uppercase blue label preceded by an orange circular marker.
-- **State:** Informational only; it behaves as a route annotation, not a selectable filter.
+- **Style:** Unboxed Roasted Brown uppercase location label with a Terracotta circular marker.
+- **State:** Informational only.
 
 ### Cards / Containers
 
-- **Corner Style:** Square for route articles and canvases; circular only for destination objects.
-- **Background:** Large flat palette fields instead of generic white cards.
-- **Shadow Strategy:** Route articles remain flat; framed canvases and focal markers use the documented hard offsets.
-- **Border:** Timeline nodes combine a milk border with a blue outline; canvases use a thick milk frame.
-- **Internal Padding:** Fluid section padding and context-specific article padding preserve the editorial composition.
+- **Corner Style:** Square route items and canvases; circles only for meaningful markers.
+- **Background:** Large material fields replace generic cards.
+- **Shadow Strategy:** Timeline content is flat; focal art and destinations receive offsets.
+- **Border:** Route nodes combine Canvas Cream and Espresso; artwork has a thick Canvas Cream frame.
 
 ### Navigation
 
-The header is a milk-paper sign strip with a crisp blue lower rule. The A1 mark uses Archivo Black and a slightly rotated circular badge. Desktop links are uppercase, heavy, and unboxed except for the orange Facebook action; ordinary links turn orange on hover. Below 680px, a three-line blue menu control reveals a full-width stacked panel and closes after navigation.
+Canvas Cream sign strip with an Espresso rule and Roasted Brown stamped wordmark. Links are heavy and uppercase; Facebook is terracotta. Below 680px, a three-line control reveals a stacked panel and closes after selection.
 
 ### Destination Stamp
 
-A rotated orange circle combines the A1 display mark with a compact uppercase caption. It is reserved for hero or map moments where the shop is framed as the endpoint of a route.
+A rotated Terracotta circle combines A1 with a compact caption, marking the shop as the route endpoint.
 
 ### Art Canvas
 
-Overlapping rectangular canvases use thick milk frames, hard espresso shadows, bold one-word display labels, rotated placements, and large diagonal paint bands. The composition should feel handmade and communal while preserving strong geometric legibility.
+Overlapping rectangles use Canvas Cream frames, Espresso offsets, one-word display labels, and diagonal Terracotta, Ochre, Cream, and Cobalt bands.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** give Waypoint Blue, Milk Paper, Marker Orange, and Espresso Brown large, confident fields.
-- **Do** use orange markers and route geometry to lead visitors toward an action or destination.
-- **Do** keep major headings short enough to read as signage.
-- **Do** reserve physical rotation and hard shadows for focal objects, art frames, and actionable placards.
-- **Do** preserve a clear single-column reading route when layouts collapse on mobile.
+- **Do** establish compositions with a roast, espresso, or canvas base.
+- **Do** use Terracotta Paint to connect actions with handmade annotation.
+- **Do** reserve Cobalt and Ochre for art, route, and brush-mark moments.
+- **Do** keep headings compact enough to behave like painted signs.
+- **Do** preserve a direct mobile route to address, directions, and Facebook.
 
 ### Don't:
 
-- **Don't** drift into beige café minimalism, soft neutral lifestyle styling, or generic luxury-coffee cues.
-- **Don't** use rounded cards as a default container pattern; curves carry destination meaning here.
-- **Don't** replace hard offset shadows with blurred, floating dashboard-card elevation.
-- **Don't** use orange as passive filler when it can act as a marker, annotation, or call to action.
-- **Don't** let collage geometry obscure factual information, navigation, or visit actions.
+- **Don't** return to bright-blue-first branding; cobalt is a sparing pigment.
+- **Don't** drift into monochrome beige café minimalism or sterile gallery styling.
+- **Don't** use rounded cards as a generic container pattern.
+- **Don't** replace hard offsets with diffuse dashboard shadows.
+- **Don't** let brush marks obscure copy, navigation, or visit actions.

@@ -1,120 +1,91 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-22T10:30:00+02:00",
+  "generatedAt": "2026-08-22T11:00:00+02:00",
   "title": "Design System: A1 Brews",
   "extensions": {
     "colorMeta": {
-      "waypoint-blue": { "role": "primary", "displayName": "Waypoint Blue", "canonical": "#123ca8", "tonalRamp": ["oklch(15% 0.12 263)", "oklch(26% 0.15 263)", "oklch(38% 0.17 263)", "#123ca8", "oklch(61% 0.14 263)", "oklch(73% 0.10 263)", "oklch(85% 0.05 263)", "oklch(95% 0.02 263)"] },
-      "waypoint-blue-dark": { "role": "primary", "displayName": "Deep Waypoint Blue", "canonical": "#0b2e87", "tonalRamp": ["oklch(15% 0.11 263)", "oklch(24% 0.14 263)", "#0b2e87", "oklch(49% 0.16 263)", "oklch(61% 0.13 263)", "oklch(73% 0.09 263)", "oklch(85% 0.05 263)", "oklch(95% 0.02 263)"] },
-      "milk-paper": { "role": "neutral", "displayName": "Milk Paper", "canonical": "#f6f2e8", "tonalRamp": ["oklch(15% 0.015 84)", "oklch(26% 0.014 84)", "oklch(38% 0.013 84)", "oklch(50% 0.012 84)", "oklch(62% 0.011 84)", "oklch(74% 0.010 84)", "oklch(86% 0.009 84)", "#f6f2e8"] },
-      "marker-orange": { "role": "secondary", "displayName": "Marker Orange", "canonical": "#f45114", "tonalRamp": ["oklch(15% 0.10 39)", "oklch(26% 0.14 39)", "oklch(38% 0.18 39)", "oklch(50% 0.21 39)", "#f45114", "oklch(72% 0.17 39)", "oklch(84% 0.09 39)", "oklch(95% 0.03 39)"] },
-      "espresso-brown": { "role": "neutral", "displayName": "Espresso Brown", "canonical": "#24130e", "tonalRamp": ["#24130e", "oklch(26% 0.05 43)", "oklch(38% 0.06 43)", "oklch(50% 0.06 43)", "oklch(62% 0.05 43)", "oklch(74% 0.04 43)", "oklch(86% 0.025 43)", "oklch(95% 0.01 43)"] },
-      "sign-ink": { "role": "neutral", "displayName": "Sign Ink", "canonical": "#101010", "tonalRamp": ["#101010", "oklch(26% 0 0)", "oklch(38% 0 0)", "oklch(50% 0 0)", "oklch(62% 0 0)", "oklch(74% 0 0)", "oklch(86% 0 0)", "oklch(95% 0 0)"] },
-      "white": { "role": "neutral", "displayName": "White", "canonical": "#ffffff", "tonalRamp": ["oklch(15% 0 0)", "oklch(26% 0 0)", "oklch(38% 0 0)", "oklch(50% 0 0)", "oklch(62% 0 0)", "oklch(74% 0 0)", "oklch(86% 0 0)", "#ffffff"] },
-      "mist-blue": { "role": "neutral", "displayName": "Mist Blue", "canonical": "#e3e8fa", "tonalRamp": ["oklch(15% 0.03 263)", "oklch(26% 0.035 263)", "oklch(38% 0.04 263)", "oklch(50% 0.04 263)", "oklch(62% 0.035 263)", "oklch(74% 0.03 263)", "#e3e8fa", "oklch(95% 0.01 263)"] }
+      "roasted-brown": { "role": "primary", "displayName": "Roasted Brown", "canonical": "#552a18", "tonalRamp": ["oklch(15% .04 45)", "#32170f", "#552a18", "oklch(48% .09 45)", "oklch(60% .08 45)", "oklch(72% .06 45)", "oklch(84% .03 45)", "oklch(95% .01 45)"] },
+      "dark-roast": { "role": "primary", "displayName": "Dark Roast", "canonical": "#32170f", "tonalRamp": ["oklch(15% .04 43)", "#32170f", "oklch(34% .06 43)", "oklch(46% .07 43)", "oklch(58% .06 43)", "oklch(70% .05 43)", "oklch(83% .03 43)", "oklch(95% .01 43)"] },
+      "canvas-cream": { "role": "neutral", "displayName": "Canvas Cream", "canonical": "#f3e7cf", "tonalRamp": ["oklch(15% .02 78)", "oklch(27% .03 78)", "oklch(39% .03 78)", "oklch(51% .04 78)", "oklch(63% .04 78)", "oklch(75% .03 78)", "oklch(87% .02 78)", "#f3e7cf"] },
+      "terracotta-paint": { "role": "secondary", "displayName": "Terracotta Paint", "canonical": "#c9472b", "tonalRamp": ["oklch(15% .08 35)", "oklch(27% .12 35)", "oklch(39% .15 35)", "#c9472b", "oklch(61% .15 35)", "oklch(73% .11 35)", "oklch(85% .06 35)", "oklch(95% .02 35)"] },
+      "espresso": { "role": "neutral", "displayName": "Espresso", "canonical": "#1e100c", "tonalRamp": ["#1e100c", "oklch(27% .03 42)", "oklch(39% .04 42)", "oklch(51% .05 42)", "oklch(63% .04 42)", "oklch(75% .03 42)", "oklch(87% .02 42)", "oklch(95% .01 42)"] },
+      "coffee-ink": { "role": "neutral", "displayName": "Coffee Ink", "canonical": "#2a1711", "tonalRamp": ["#2a1711", "oklch(27% .04 43)", "oklch(39% .05 43)", "oklch(51% .05 43)", "oklch(63% .04 43)", "oklch(75% .03 43)", "oklch(87% .02 43)", "oklch(95% .01 43)"] },
+      "cobalt-pigment": { "role": "tertiary", "displayName": "Cobalt Pigment", "canonical": "#294ea2", "tonalRamp": ["oklch(15% .10 263)", "oklch(27% .14 263)", "#294ea2", "oklch(51% .16 263)", "oklch(63% .13 263)", "oklch(75% .09 263)", "oklch(87% .04 263)", "oklch(95% .01 263)"] },
+      "ochre-pigment": { "role": "tertiary", "displayName": "Ochre Pigment", "canonical": "#d49331", "tonalRamp": ["oklch(15% .06 75)", "oklch(27% .09 75)", "oklch(39% .12 75)", "oklch(51% .14 75)", "#d49331", "oklch(75% .11 75)", "oklch(87% .05 75)", "oklch(95% .02 75)"] },
+      "map-paper": { "role": "neutral", "displayName": "Map Paper", "canonical": "#d9c49d", "tonalRamp": ["oklch(15% .02 78)", "oklch(27% .03 78)", "oklch(39% .04 78)", "oklch(51% .05 78)", "oklch(63% .06 78)", "#d9c49d", "oklch(87% .03 78)", "oklch(95% .01 78)"] },
+      "pale-roast-copy": { "role": "neutral", "displayName": "Pale Roast Copy", "canonical": "#ead9bd", "tonalRamp": ["oklch(15% .02 72)", "oklch(27% .03 72)", "oklch(39% .04 72)", "oklch(51% .05 72)", "oklch(63% .05 72)", "oklch(75% .04 72)", "#ead9bd", "oklch(95% .01 72)"] },
+      "white": { "role": "neutral", "displayName": "White", "canonical": "#ffffff", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "#ffffff"] }
     },
     "typographyMeta": {
-      "display": { "displayName": "Display Sign", "purpose": "Hero slogans and the largest destination statements." },
-      "headline": { "displayName": "Section Sign", "purpose": "Uppercase section headings and visit prompts." },
-      "title": { "displayName": "Route Title", "purpose": "Timeline stages and compact emphatic statements." },
+      "display": { "displayName": "Painted Display", "purpose": "Hero slogan and largest studio statements." },
+      "headline": { "displayName": "Shop Sign", "purpose": "Section declarations and destination prompts." },
+      "title": { "displayName": "Route Title", "purpose": "Timeline stages and poster statements." },
       "body": { "displayName": "Condensed Body", "purpose": "Descriptive and practical copy." },
-      "label": { "displayName": "Wayfinding Label", "purpose": "Navigation, controls, chips, stamps, and annotations." }
+      "label": { "displayName": "Studio Label", "purpose": "Navigation, controls, chips, stamps, and annotations." }
     },
     "shadows": [
-      { "name": "control-offset", "value": "6px 6px 0 #24130e", "purpose": "Default tactile lift for buttons." },
-      { "name": "object-offset", "value": "18px 22px 0 rgba(36,19,14,.35)", "purpose": "Lift for the hero coffee medallion." },
-      { "name": "canvas-offset", "value": "18px 22px 0 rgba(36,19,14,.45)", "purpose": "Strong physical layering for framed art canvases." },
-      { "name": "marker-offset", "value": "8px 9px 0 #24130e", "purpose": "Compact lift for destination stamps." }
+      { "name": "control-press", "value": "6px 6px 0 #1e100c", "purpose": "Physical button lift." },
+      { "name": "coffee-medallion", "value": "18px 22px 0 rgba(36,19,14,.35)", "purpose": "Mounted hero image." },
+      { "name": "framed-canvas", "value": "18px 22px 0 rgba(36,19,14,.45)", "purpose": "Layered artwork." },
+      { "name": "stamped-marker", "value": "8px 9px 0 #1e100c", "purpose": "Destination stamp lift." }
     ],
     "motion": [
-      { "name": "control-press", "value": "transform .2s ease, box-shadow .2s ease", "purpose": "Makes button hover feel like a physical press." },
-      { "name": "reduced-motion", "value": "transition-duration: .01ms", "purpose": "Removes meaningful transition duration when reduced motion is requested." }
+      { "name": "control-press", "value": "transform .2s ease, box-shadow .2s ease", "purpose": "Physical button response." },
+      { "name": "reduced-motion", "value": "transition-duration: .01ms", "purpose": "Reduced-motion override." }
     ],
-    "breakpoints": [
-      { "name": "stack", "value": "900px" },
-      { "name": "mobile", "value": "680px" }
-    ]
+    "breakpoints": [{ "name": "stack", "value": "900px" }, { "name": "mobile", "value": "680px" }]
   },
   "components": [
     {
-      "name": "Primary Button",
-      "kind": "button",
-      "refersTo": "button-primary",
-      "description": "The main visit or follow action on a light field.",
+      "name": "Primary Button", "kind": "button", "refersTo": "button-primary", "description": "Principal direction or follow action.",
       "html": "<a class=\"ds-btn-primary\" href=\"#\">GET DIRECTIONS <span aria-hidden=\"true\">→</span></a>",
-      "css": ".ds-btn-primary { display:inline-flex; align-items:center; gap:1.2rem; padding:1rem 1.3rem; background:var(--orange, #f45114); color:#fff; font:900 1rem 'Barlow Condensed','Arial Narrow',sans-serif; text-transform:uppercase; text-decoration:none; box-shadow:6px 6px 0 var(--espresso, #24130e); transition:transform .2s ease,box-shadow .2s ease; } .ds-btn-primary:hover { transform:translate(3px,3px); box-shadow:3px 3px 0 var(--espresso, #24130e); } .ds-btn-primary:focus-visible { outline:3px solid var(--orange, #f45114); outline-offset:4px; } .ds-btn-primary:active { transform:translate(4px,4px); box-shadow:2px 2px 0 var(--espresso, #24130e); }"
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:1.2rem;padding:1rem 1.3rem;background:var(--orange,#c9472b);color:#fff;font:900 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;text-decoration:none;box-shadow:6px 6px 0 var(--espresso,#1e100c);transition:transform .2s ease,box-shadow .2s ease}.ds-btn-primary:hover{transform:translate(3px,3px);box-shadow:3px 3px 0 var(--espresso,#1e100c)}.ds-btn-primary:focus-visible{outline:3px solid var(--orange,#c9472b);outline-offset:4px}.ds-btn-primary:active{transform:translate(4px,4px);box-shadow:2px 2px 0 var(--espresso,#1e100c)}"
     },
     {
-      "name": "Light Button",
-      "kind": "button",
-      "refersTo": "button-light",
-      "description": "A high-contrast action for Waypoint Blue fields.",
+      "name": "Light Button", "kind": "button", "refersTo": "button-light", "description": "Canvas placard for Dark Roast fields.",
       "html": "<a class=\"ds-btn-light\" href=\"#\">OPEN IN MAPS <span aria-hidden=\"true\">↗</span></a>",
-      "css": ".ds-btn-light { display:inline-flex; align-items:center; gap:1.2rem; padding:1rem 1.3rem; background:var(--milk, #f6f2e8); color:var(--blue, #123ca8); font:900 1rem 'Barlow Condensed','Arial Narrow',sans-serif; text-transform:uppercase; text-decoration:none; box-shadow:6px 6px 0 var(--espresso, #24130e); transition:transform .2s ease,box-shadow .2s ease; } .ds-btn-light:hover { transform:translate(3px,3px); box-shadow:3px 3px 0 var(--espresso, #24130e); } .ds-btn-light:focus-visible { outline:3px solid var(--orange, #f45114); outline-offset:4px; } .ds-btn-light:active { transform:translate(4px,4px); box-shadow:2px 2px 0 var(--espresso, #24130e); }"
+      "css": ".ds-btn-light{display:inline-flex;align-items:center;gap:1.2rem;padding:1rem 1.3rem;background:var(--milk,#f3e7cf);color:var(--blue,#552a18);font:900 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;text-decoration:none;box-shadow:6px 6px 0 var(--espresso,#1e100c);transition:transform .2s ease,box-shadow .2s ease}.ds-btn-light:hover{transform:translate(3px,3px);box-shadow:3px 3px 0 var(--espresso,#1e100c)}.ds-btn-light:focus-visible{outline:3px solid var(--orange,#c9472b);outline-offset:4px}"
     },
     {
-      "name": "Navigation CTA",
-      "kind": "nav",
-      "refersTo": "navigation-cta",
-      "description": "The compact social destination action in the header.",
-      "html": "<a class=\"ds-nav-cta\" href=\"#\">FACEBOOK <span aria-hidden=\"true\">↗</span></a>",
-      "css": ".ds-nav-cta { display:inline-flex; gap:.4rem; padding:.7rem 1rem; background:var(--orange, #f45114); color:#fff; font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif; text-transform:uppercase; text-decoration:none; transition:transform .2s ease; } .ds-nav-cta:hover { transform:translateY(-2px); } .ds-nav-cta:focus-visible { outline:3px solid var(--orange, #f45114); outline-offset:4px; } .ds-nav-cta:active { transform:translateY(0); }"
+      "name": "Navigation CTA", "kind": "nav", "refersTo": "navigation-cta", "description": "Compact Facebook action.",
+      "html": "<a class=\"ds-nav-cta\" href=\"#\">FACEBOOK ↗</a>",
+      "css": ".ds-nav-cta{display:inline-block;padding:.7rem 1rem;background:var(--orange,#c9472b);color:#fff;font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;text-decoration:none}.ds-nav-cta:hover{filter:brightness(.92)}.ds-nav-cta:focus-visible{outline:3px solid var(--orange,#c9472b);outline-offset:4px}"
     },
     {
-      "name": "Location Chip",
-      "kind": "chip",
-      "refersTo": "location-chip",
-      "description": "An informational route annotation that locates the shop.",
+      "name": "Location Chip", "kind": "chip", "refersTo": "location-chip", "description": "Informational route label.",
       "html": "<span class=\"ds-location-chip\"><i aria-hidden=\"true\"></i> MONTE VISTA, CAPE TOWN</span>",
-      "css": ".ds-location-chip { display:inline-flex; align-items:center; color:var(--blue, #123ca8); font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif; text-transform:uppercase; } .ds-location-chip i { width:.55rem; height:.55rem; margin-right:.5rem; border-radius:50%; background:var(--orange, #f45114); }"
+      "css": ".ds-location-chip{display:inline-flex;align-items:center;color:var(--blue,#552a18);font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase}.ds-location-chip i{width:.55rem;height:.55rem;margin-right:.5rem;border-radius:50%;background:var(--orange,#c9472b)}"
     },
     {
-      "name": "Route Card",
-      "kind": "card",
-      "description": "A flat timeline stage for the coffee-and-creative experience.",
-      "html": "<article class=\"ds-route-card\"><i aria-hidden=\"true\"></i><span>FIRST SIP</span><h3>GREAT BREWS</h3><p>Start with a freshly made coffee and let the day slow down.</p></article>",
-      "css": ".ds-route-card { position:relative; max-width:20rem; padding:1.6rem 1rem 2.4rem 0; border-top:3px solid var(--blue, #123ca8); color:#101010; font-family:'Barlow Condensed','Arial Narrow',sans-serif; } .ds-route-card i { position:absolute; top:-11px; left:0; width:15px; height:15px; border:4px solid var(--milk, #f6f2e8); outline:3px solid var(--blue, #123ca8); border-radius:50%; background:var(--orange, #f45114); } .ds-route-card span { display:block; margin-bottom:2rem; color:var(--blue, #123ca8); font-weight:900; } .ds-route-card h3 { margin:0 0 1rem; font:900 2rem/1 'Archivo Black',Impact,sans-serif; } .ds-route-card p { margin:0; font-size:1.15rem; line-height:1.5; }"
+      "name": "Route Card", "kind": "card", "description": "Flat coffee-and-art timeline stage.",
+      "html": "<article class=\"ds-route-card\"><i></i><span>FIRST SIP</span><h3>GREAT BREWS</h3><p>Start with a freshly made coffee and let the day slow down.</p></article>",
+      "css": ".ds-route-card{position:relative;max-width:20rem;padding:1.6rem 1rem 2.4rem 0;border-top:3px solid var(--espresso,#1e100c);color:var(--ink,#2a1711);font-family:'Barlow Condensed','Arial Narrow',sans-serif}.ds-route-card i{position:absolute;top:-11px;left:0;width:15px;height:15px;border:4px solid var(--milk,#f3e7cf);outline:3px solid var(--espresso,#1e100c);border-radius:50%;background:var(--orange,#c9472b)}.ds-route-card span{display:block;margin-bottom:2rem;color:var(--blue,#552a18);font-weight:900}.ds-route-card h3{margin:0 0 1rem;font:900 2rem/1 'Archivo Black',Impact,sans-serif}.ds-route-card p{margin:0;font-size:1.15rem;line-height:1.5}"
     },
     {
-      "name": "Destination Stamp",
-      "kind": "custom",
-      "description": "A circular marker that identifies A1 Brews as the endpoint of a route.",
+      "name": "Pigment Headline", "kind": "custom", "description": "Hero display with ochre paint stroke.",
+      "html": "<h2 class=\"ds-pigment-headline\">GOOD VIBES.<br><span>GREAT BREWS.</span></h2>",
+      "css": ".ds-pigment-headline{margin:0;color:var(--blue,#552a18);font:900 clamp(3rem,8vw,6rem)/.84 'Archivo Black',Impact,sans-serif;letter-spacing:-.04em;text-transform:uppercase}.ds-pigment-headline span{position:relative;z-index:0}.ds-pigment-headline span:after{content:'';position:absolute;z-index:-1;left:-.03em;right:-.02em;bottom:.02em;height:.18em;background:var(--ochre,#d49331);transform:rotate(-1.5deg)}"
+    },
+    {
+      "name": "Destination Stamp", "kind": "custom", "description": "Terracotta route endpoint.",
       "html": "<div class=\"ds-destination-stamp\"><b>A1</b><span>YOUR LOCAL STOP</span></div>",
-      "css": ".ds-destination-stamp { width:130px; height:130px; display:grid; place-content:center; text-align:center; border-radius:50%; background:var(--orange, #f45114); color:#fff; transform:rotate(-7deg); box-shadow:8px 9px 0 var(--espresso, #24130e); text-transform:uppercase; transition:transform .2s ease; } .ds-destination-stamp:hover { transform:rotate(-3deg) scale(1.03); } .ds-destination-stamp b { font:900 2.6rem/1 'Archivo Black',Impact,sans-serif; } .ds-destination-stamp span { font:900 .8rem 'Barlow Condensed','Arial Narrow',sans-serif; }"
+      "css": ".ds-destination-stamp{width:130px;height:130px;display:grid;place-content:center;text-align:center;border-radius:50%;background:var(--orange,#c9472b);color:#fff;transform:rotate(-7deg);box-shadow:8px 9px 0 var(--espresso,#1e100c);text-transform:uppercase}.ds-destination-stamp b{font:900 2.6rem/1 'Archivo Black',Impact,sans-serif}.ds-destination-stamp span{font:900 .8rem 'Barlow Condensed','Arial Narrow',sans-serif}"
     }
   ],
   "narrative": {
-    "northStar": "The Local Wayfinding Collage",
-    "overview": "A1 Brews looks like the brightest landmark on a familiar neighbourhood route. The visual system combines municipal wayfinding, hand-painted shop signage, gallery labels, and layered art materials into a confident identity that makes coffee and creativity feel inseparable.\n\nThe world is graphic, warm, and deliberately physical: ultramarine fields behave like destination signs, milk-white surfaces feel like paper, tangerine marks point and invite, and espresso brown adds the weight of coffee and ink. Oversized type, route lines, circular markers, rotated frames, and hard-offset shadows keep the experience lively without weakening its practical purpose of helping visitors find the shop.",
-    "keyCharacteristics": [
-      "High-contrast ultramarine, milk paper, tangerine, and espresso color blocking.",
-      "Condensed sign typography paired with oversized, tightly set display lettering.",
-      "Circular destination markers, route lines, map geometry, and framed art canvases.",
-      "Flat fields with tactile hard-offset shadows instead of soft luxury styling.",
-      "Mobile-first stacking that preserves strong type, bold color, and clear visit actions."
-    ],
+    "northStar": "The Working Coffee-and-Art Studio",
+    "overview": "A1 Brews feels like a neighbourhood coffee counter sharing a room with an active artist’s studio. Roasted-coffee fields and canvas-cream paper establish the material base; terracotta brush marks, ochre strokes, and rare cobalt pigment bring the energy of work being made nearby.\n\nThe system keeps a local-wayfinding collage structure but shifts its emotional centre toward warm, tactile craft. Condensed sign type, destination marks, map routes, framed canvases, and firm offset shadows refuse both generic beige cafés and sterile white galleries.",
+    "keyCharacteristics": ["Roast-led brown and cream fields with terracotta as action paint.", "Cobalt and ochre used as sparing, high-impact artist pigments.", "Oversized sign lettering paired with practical condensed copy.", "Brush blocks, stamped circles, route lines, and framed canvases.", "Flat material surfaces with hard physical offsets."],
     "rules": [
-      { "name": "The Destination Blue Rule", "body": "Waypoint Blue owns large fields and major headings; it is a navigational anchor, not a minor decorative accent.", "section": "colors" },
-      { "name": "The Orange Means Energy Rule", "body": "Use Marker Orange for actions, annotations, nodes, and creative interruptions. Its role is to move the eye or prompt movement.", "section": "colors" },
-      { "name": "The Sign First Rule", "body": "Major headings behave like public signs: short, uppercase, tightly tracked, and immediately legible.", "section": "typography" },
-      { "name": "The Condensed Utility Rule", "body": "Supporting copy and controls use the condensed family so practical information stays compact beside the oversized display voice.", "section": "typography" },
-      { "name": "The Route Before Decoration Rule", "body": "Even when geometry overlaps or rotates, reading order, section entry points, and visit actions stay on a simple vertical route.", "section": "layout" },
-      { "name": "The Hard Shadow Rule", "body": "Use offset shadows to imply printed or mounted objects; do not introduce diffuse card shadows or glossy elevation.", "section": "elevation" },
-      { "name": "The Meaningful Circle Rule", "body": "Circular forms mark a destination, a route point, or the coffee focal object; they are not a general-purpose container shape.", "section": "shapes" }
+      { "name": "The Roast Leads Rule", "body": "Brown, cream, terracotta, and espresso define the brand first; pigment never replaces the coffee-led base.", "section": "colors" },
+      { "name": "The Pigment Is Precious Rule", "body": "Cobalt and ochre are intentional artist marks, not general interface colors.", "section": "colors" },
+      { "name": "The Painted Sign Rule", "body": "Major headings stay short, uppercase, tightly set, and strong enough for a shopfront.", "section": "typography" },
+      { "name": "The Ochre Stroke Rule", "body": "Highlight a key display phrase with a shallow, rotated ochre underline rather than recoloring the text.", "section": "typography" },
+      { "name": "The Clear Route Rule", "body": "Collage may overlap and rotate, but the path to directions or Facebook remains simple and vertical.", "section": "layout" },
+      { "name": "The Hard Offset Rule", "body": "Shadows describe stacked material; never soften them into glossy card elevation.", "section": "elevation" },
+      { "name": "The Marked Circle Rule", "body": "A circle identifies coffee, a route point, or a destination; it is not a default container radius.", "section": "shapes" }
     ],
-    "dos": [
-      "Do give Waypoint Blue, Milk Paper, Marker Orange, and Espresso Brown large, confident fields.",
-      "Do use orange markers and route geometry to lead visitors toward an action or destination.",
-      "Do keep major headings short enough to read as signage.",
-      "Do reserve physical rotation and hard shadows for focal objects, art frames, and actionable placards.",
-      "Do preserve a clear single-column reading route when layouts collapse on mobile."
-    ],
-    "donts": [
-      "Don't drift into beige café minimalism, soft neutral lifestyle styling, or generic luxury-coffee cues.",
-      "Don't use rounded cards as a default container pattern; curves carry destination meaning here.",
-      "Don't replace hard offset shadows with blurred, floating dashboard-card elevation.",
-      "Don't use orange as passive filler when it can act as a marker, annotation, or call to action.",
-      "Don't let collage geometry obscure factual information, navigation, or visit actions."
-    ]
+    "dos": ["Do establish compositions with a roast, espresso, or canvas base.", "Do use Terracotta Paint to connect actions with handmade annotation.", "Do reserve Cobalt and Ochre for art, route, and brush-mark moments.", "Do keep headings compact enough to behave like painted signs.", "Do preserve a direct mobile route to address, directions, and Facebook."],
+    "donts": ["Don't return to bright-blue-first branding; cobalt is a sparing pigment.", "Don't drift into monochrome beige café minimalism or sterile gallery styling.", "Don't use rounded cards as a generic container pattern.", "Don't replace hard offsets with diffuse dashboard shadows.", "Don't let brush marks obscure copy, navigation, or visit actions."]
   }
 }
