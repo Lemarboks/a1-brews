@@ -66,21 +66,23 @@ function Hero() {
 
 function Story() {
   return <section className="story section" id="story">
-    <figure><img src={hero900} alt="Painterly concept detail of the A1 Brews atmosphere"/><figcaption>CONCEPT STUDY / COFFEE + ART</figcaption></figure>
-    <div className="story-copy"><p className="script">More than coffee</p><h2>A ROOM FOR<br/><span>CREATIVE PEOPLE.</span></h2><p>A1 Brews brings coffee, local art, thrift finds and conversation together in one neighbourhood space. Come to pause, browse, make, listen—or simply feel at home.</p><ul><li>Fresh coffee</li><li>Local art and thrift finds</li><li>Creative community events</li></ul><ArrowLink href={FB}>FOLLOW OUR STORY</ArrowLink></div>
+    <span className="section-no">01 / THE SPACE</span>
+    <figure><img src={hero900} alt="Painterly concept detail of the A1 Brews atmosphere"/><figcaption>FIG. 01 — CONCEPT STUDY / COFFEE + ART</figcaption></figure>
+    <div className="story-copy"><p className="script">More than coffee</p><h2>A ROOM FOR<br/><span>CREATIVE PEOPLE.</span></h2><p className="story-lead">A1 Brews brings coffee, local art, thrift finds and conversation together in one neighbourhood space.</p><p>Come to pause, browse, make, listen—or simply feel at home.</p><ul><li>Fresh coffee</li><li>Local art and thrift finds</li><li>Creative community events</li></ul><ArrowLink href={FB}>FOLLOW OUR STORY</ArrowLink></div>
   </section>;
 }
 
 function MenuSection() {
   const [cat,setCat] = useState('COFFEE');
   return <section className="menu-section section" id="menu">
+    <span className="section-no">02 / THE COUNTER</span>
     <header><p className="script">From the counter</p><h2>WHAT WE’RE<br/><span>POURING.</span></h2><p>Our selection changes. Ask in store or check Facebook for current items and prices.</p></header>
-    <div className="menu-browser"><div className="categories" role="tablist" aria-label="Drink categories">{Object.keys(menuData).map(item=><button key={item} role="tab" aria-selected={cat===item} onClick={()=>setCat(item)}>{item}</button>)}</div><AnimatePresence mode="wait"><motion.div className="menu-list" key={cat} initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>{menuData[cat].map((item,index)=><div key={item}><b>{String(index+1).padStart(2,'0')}</b><span>{item}</span><i>ASK IN STORE</i></div>)}</motion.div></AnimatePresence><ArrowLink href={FB} primary>SEE THE LATEST</ArrowLink></div>
+    <div className="menu-browser"><div className="categories" role="tablist" aria-label="Drink categories">{Object.keys(menuData).map((item,index)=><button key={item} role="tab" aria-selected={cat===item} onClick={()=>setCat(item)}><small>0{index+1}</small>{item}</button>)}</div><AnimatePresence mode="wait"><motion.div className="menu-list" key={cat} initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>{menuData[cat].map((item,index)=><div key={item}><b>{String(index+1).padStart(2,'0')}</b><span>{item}</span><i>ASK IN STORE</i></div>)}</motion.div></AnimatePresence><ArrowLink href={FB} primary>SEE THE LATEST</ArrowLink></div>
   </section>;
 }
 
 function Visit() {
-  return <section className="visit section" id="visit"><div><p className="script">Come say hello</p><h2>FIND US IN<br/><span>MONTE VISTA.</span></h2><address>No. 4 Monte Vista Boulevard<br/>Cape Town, South Africa</address><p>Opening times and contact details may change. Please check Facebook before visiting.</p><div className="visit-actions"><ArrowLink href={MAP} primary>GET DIRECTIONS</ArrowLink><ArrowLink href={FB}>CHECK FACEBOOK</ArrowLink></div></div><div className="map-mark" aria-hidden="true"><b>A1</b><span>MONTE VISTA<br/>CAPE TOWN</span></div></section>;
+  return <section className="visit section" id="visit"><span className="section-no">03 / VISIT</span><div className="visit-copy"><p className="script">Come say hello</p><h2>FIND US IN<br/><span>MONTE VISTA.</span></h2><address>No. 4 Monte Vista Boulevard<br/>Cape Town, South Africa</address><p>Opening times and contact details may change. Please check Facebook before visiting.</p><div className="visit-actions"><ArrowLink href={MAP} primary>GET DIRECTIONS</ArrowLink><ArrowLink href={FB}>CHECK FACEBOOK</ArrowLink></div></div><div className="map-mark" aria-hidden="true"><b>A1</b><span>MONTE VISTA<br/>CAPE TOWN</span></div><p className="visit-note">NO. 4 / THE NEIGHBOURHOOD CORNER</p></section>;
 }
 
 function Footer() { return <footer><a className="footer-logo" href="#top"><b>A1</b> BREWS</a><p>COFFEE · ART · COMMUNITY<br/>MONTE VISTA, CAPE TOWN</p><a href={FB} target="_blank" rel="noreferrer">FACEBOOK ↗</a><small>© {new Date().getFullYear()} A1 BREWS</small></footer>; }
