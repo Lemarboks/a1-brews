@@ -1,181 +1,174 @@
 ---
 name: A1 Brews
-description: An expressionist café broadside where coffee, art, thrift, and community share one painted room.
+description: An independent arts-and-coffee magazine shaped by expressionist pigment and asymmetric editorial spreads.
 colors:
-  gallery-black: "#100d0a"
+  editorial-black: "#100d0a"
   coffee-ink: "#20120b"
-  parchment: "#ead7aa"
-  parchment-light: "#f3e5bd"
-  parchment-muted: "#d6c18e"
+  editorial-paper: "#ead7aa"
+  paper-light: "#f3e5bd"
+  paper-muted: "#cbb887"
   molten-amber: "#f0a51b"
   burnt-orange: "#d65418"
   oxblood: "#7c1f16"
-  petrol-blue: "#0e3b4c"
-  studio-teal: "#315c59"
+  petrol: "#0e3b4c"
+  teal: "#315c59"
 typography:
-  display: { fontFamily: "Anton, Impact, sans-serif", fontSize: "clamp(4rem, 8vw, 7.3rem)", fontWeight: 400, lineHeight: 0.9, letterSpacing: "-0.025em" }
-  headline: { fontFamily: "Anton, Impact, sans-serif", fontSize: "clamp(3.2rem, 6.8vw, 6rem)", fontWeight: 400, lineHeight: 0.92, letterSpacing: "-0.02em" }
-  title: { fontFamily: "Anton, Impact, sans-serif", fontSize: "clamp(2.4rem, 4vw, 4rem)", fontWeight: 400, lineHeight: 0.9 }
+  display: { fontFamily: "Anton, Impact, sans-serif", fontSize: "clamp(4.5rem, 8.2vw, 7.8rem)", fontWeight: 400, lineHeight: 0.85, letterSpacing: "-0.03em" }
+  headline: { fontFamily: "Anton, Impact, sans-serif", fontSize: "clamp(4rem, 7vw, 6rem)", fontWeight: 400, lineHeight: 0.9 }
+  title: { fontFamily: "Anton, Impact, sans-serif", fontSize: "clamp(2rem, 3.5vw, 3.6rem)", fontWeight: 400, lineHeight: 0.92 }
   body: { fontFamily: "Barlow Condensed, Arial Narrow, sans-serif", fontSize: "1.15rem", fontWeight: 500, lineHeight: 1.5 }
-  label: { fontFamily: "Barlow Condensed, Arial Narrow, sans-serif", fontSize: "1rem", fontWeight: 800 }
-rounded:
-  none: "0"
+  label: { fontFamily: "Barlow Condensed, Arial Narrow, sans-serif", fontSize: "0.8rem", fontWeight: 800, letterSpacing: "0.12em" }
+rounded: { none: "0" }
 spacing:
-  control-y: "0.95rem"
-  control-x: "1.25rem"
-  page-edge: "clamp(1.2rem, 4vw, 4.5rem)"
-  section-block: "clamp(5rem, 10vw, 10rem)"
+  page-edge: "clamp(1.25rem, 5vw, 6rem)"
+  control-y: "0.8rem"
+  control-x: "1rem"
+  spread-block: "8rem"
 components:
-  button-oxblood: { backgroundColor: "{colors.oxblood}", textColor: "{colors.parchment-light}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "{spacing.control-y} {spacing.control-x}" }
-  button-petrol: { backgroundColor: "{colors.petrol-blue}", textColor: "{colors.parchment-light}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "{spacing.control-y} {spacing.control-x}" }
-  button-amber: { backgroundColor: "{colors.molten-amber}", textColor: "{colors.gallery-black}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "{spacing.control-y} {spacing.control-x}" }
-  paint-label: { backgroundColor: "{colors.petrol-blue}", textColor: "{colors.parchment-light}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "0.35rem 0.65rem" }
-  navigation-cta: { backgroundColor: "{colors.oxblood}", textColor: "{colors.parchment-light}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "0.7rem 1rem" }
+  button-oxblood: { backgroundColor: "{colors.oxblood}", textColor: "{colors.paper-light}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "{spacing.control-y} {spacing.control-x}" }
+  button-petrol: { backgroundColor: "{colors.petrol}", textColor: "{colors.paper-light}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "{spacing.control-y} {spacing.control-x}" }
+  button-amber: { backgroundColor: "{colors.molten-amber}", textColor: "{colors.coffee-ink}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "{spacing.control-y} {spacing.control-x}" }
+  navigation-cta: { backgroundColor: "{colors.coffee-ink}", textColor: "{colors.paper-light}", typography: "{typography.label}", rounded: "{rounded.none}", padding: "0.45rem 0.7rem" }
 ---
 
 # Design System: A1 Brews
 
 ## Overview
 
-**Creative North Star: "The Expressionist Café Broadside"**
+**Creative North Star: "The Independent Arts Magazine"**
 
-A1 Brews is presented as a living café canvas: a dense, warm room where coffee, local art, thrift, and community sit at the same table. The visual world translates the pinned expressionist reference into a broadside-like interface—near-black framing, parchment panels, molten amber light, burnt-orange marks, oxblood emphasis, and blue-green pigment.
+A1 Brews behaves like an independent arts-and-coffee magazine brought to life. Expressionist café artwork is the cover image; around it, fine rules, issue furniture, folios, overlapping headline columns, multi-column reading, and uneven index entries turn the interface into continuous editorial paper.
 
-The production artwork is the emotional anchor: visible impasto, crowded café energy, a monumental cup, painterly light, and art materials in use. Around it, poster-scale typography, rough-edged labels, split-canvas staging, hard borders, and physical offset shadows give the site the urgency of a hand-pulled event poster rather than a polished café template or sterile gallery.
+Parchment and near-black ink establish the publication. Amber, oxblood, orange, petrol, and teal act as printing inks and painterly interruptions. Energy comes from column spans, image bleed, typographic scale, restrained rotation, and deliberate misalignment—not generic cards.
 
 **Key Characteristics:**
 
-- Near-black framing against parchment message panels.
-- Expressionist impasto imagery with coffee and community sharing focus.
-- Anton poster typography paired with Barlow Condensed utility copy.
-- Oxblood, amber, burnt orange, petrol, and teal used as saturated paint fields.
-- Split-canvas hero, oversized poster blocks, paint labels, and hard offsets.
+- Cover-story overlap with issue number and caption furniture.
+- Fine ink rules, broad margins, columns, and editorial labels.
+- Anton display type paired with Barlow Condensed reading copy.
+- Multi-column manifesto with an oxblood drop cap.
+- Uneven A1 index, rotated feature, image-bleed visit spread, and last-page close.
 
 ## Colors
 
-The palette behaves like oil paint under warm café light: dense black framing, aged paper, molten highlights, red-orange heat, and deep blue-green shadow.
+The palette resembles aged editorial stock printed with dense ink and expressionist spot colors.
 
 ### Primary
 
-- **Gallery Black:** The page frame, header, footer, artwork ground, border color, and universal hard-shadow tone.
-- **Parchment:** The principal reading surface and warm paper counterweight to the dark frame.
+- **Editorial Paper:** Default page stock and continuous reading ground.
+- **Editorial Black:** Last-page and footer field, artwork ground, and strongest frame.
+- **Coffee Ink:** Body copy, fine rules, navigation, and borders.
 
 ### Secondary
 
-- **Molten Amber:** High-energy highlight for actions, poster fields, route punctuation, and illuminated details.
-- **Burnt Orange:** Structural paint stripe, social closing field, border accent, and active warmth.
-- **Oxblood:** Emotional emphasis for the hero keyword, manifesto field, rust button, and poster lettering.
+- **Oxblood:** Cover keyword, feature rule, index mark, CTA, and editorial emphasis.
+- **Molten Amber:** Interlude punctuation, map action, feature rule, and last-page highlight.
+- **Burnt Orange:** Focus, index mark, map pin, and final-page line.
 
 ### Tertiary
 
-- **Petrol Blue:** Cool paint label, community panel, Facebook action, and rhythm field.
-- **Studio Teal:** Map field and supporting blue-green material surface.
+- **Petrol:** Art-index mark and Facebook action.
+- **Teal:** Full-bleed visit map field.
 
 ### Neutral
 
-- **Coffee Ink:** Body copy on parchment.
-- **Parchment Light:** Highest-contrast warm text on saturated or black fields.
-- **Parchment Muted:** Secondary notes on near-black.
+- **Paper Light:** Feature-spread stock and light text on saturated ink.
+- **Paper Muted:** Quiet footer and secondary editorial details.
 
 ### Named Rules
 
-**The Black Frame Rule.** Gallery Black must visibly frame the experience through headers, borders, gutters, or hard shadows; it gives the paint fields their force.
+**The Paper Is Continuous Rule.** Parchment connects spreads; color fields interrupt it only with editorial purpose.
 
-**The Painted Field Rule.** Saturated colors occupy decisive poster-scale regions or specific labels. Avoid scattering them as tiny decorative accents.
+**The Spot Ink Rule.** Each saturated ink owns a clear role. Never scatter them as decorative badges.
 
 ## Typography
 
 **Display Font:** Anton (Impact fallback)  
 **Body Font:** Barlow Condensed (Arial Narrow fallback)
 
-**Character:** Anton has the blunt vertical force of a gig poster or painted window sign. Barlow Condensed keeps longer copy practical, compressed, and slightly editorial; its italic option belongs only in occasional human annotations.
+**Character:** Anton supplies cover-line force and compact poster rhythm. Barlow Condensed is the editorial text face for issue furniture, captions, multi-column prose, addresses, and navigation.
 
 ### Hierarchy
 
-- **Display** (400, 4rem–7.3rem, 0.9): Hero stack and dominant calls; uppercase and tightly set.
-- **Headline** (400, 3.2rem–6rem, 0.92): Manifesto, happenings, visit, and major poster statements.
-- **Title** (400, 2.4rem–4rem, 0.9): Four-world headings and strong local statements.
-- **Body** (500, 1.15rem, 1.5): Descriptive and practical content; lead copy scales to 1.6rem–2.4rem.
-- **Label** (800, compact, uppercase): Navigation, buttons, paint labels, captions, and annotations.
+- **Cover Display** (400, 4.5rem–7.8rem, 0.85): Overlapping uppercase cover headline.
+- **Spread Headline** (400, 4rem–6rem, 0.9): Manifesto and feature statements.
+- **Index Title** (400, 2rem–3.6rem, 0.92): Uneven A1 index entries.
+- **Body** (500, 1.15rem, 1.5): Reading copy; manifesto lead scales to 1.65rem.
+- **Furniture** (800, around 0.8rem, 0.1–0.15em tracking): Folios, captions, labels, and last-page notation.
 
 ### Named Rules
 
-**The Broadside Voice Rule.** Display copy stays short, uppercase, and compositionally oversized; paragraph-length content never uses Anton.
+**The Cover Line Rule.** Anton copy is short enough to function as a cover line or pull quote; paragraphs remain Barlow Condensed.
 
-**The One Red Word Rule.** Oxblood may isolate one emotionally decisive word inside a black display stack, as “Community” does in the hero.
+**The Drop Cap Rule.** A long lead may open with one oxblood Anton initial at 5.8rem, floated into the first column.
 
 ## Layout
 
-The hero is a full-height split canvas: approximately 39% parchment message panel and 61% expressionist artwork. Subsequent sections alternate two-column manifestos, four poster fields, rotated broadside panels, rhythm strips, and map-plus-address staging. Heavy black borders and gutters make neighboring color fields feel separately printed and assembled.
+The cover uses 12 columns: artwork spans columns 4–12 while a parchment headline panel overlaps from columns 1–6 beneath an issue folio. The manifesto uses a 1.2/.7/.7 grid with two-column prose. The A1 index is an uneven three-column composition; its first entry spans two rows and receives the largest marker.
 
-At 900px, hero, manifesto, happenings, and visit sections become one column; the visit copy moves above its map. At 680px, navigation becomes a disclosure, the four-world grid becomes one column, the hero artwork reduces to 470px, poster borders become thinner, and closing lines lose their desktop indents.
+The feature spread returns to 12 columns: a rotated broadside occupies columns 1–6 and copy begins lower in columns 7–12. A typographic interlude runs full width. The visit spread pairs a left-bleeding teal map with a narrower address column. The last page returns to near-black with progressively indented display lines.
 
-**The Split Canvas Rule.** Pair one legible message field with one immersive artifact or poster field; do not subdivide either side into dashboard-like cards.
+At 900px, the cover image shifts to columns 2–12, the manifesto becomes one structural column while prose stays two-column, and the index becomes two columns. At 680px, the cover becomes a vertical sequence with copy overlapping the image by 5rem; prose, index, and feature stack; closing indents disappear.
+
+**The Spread, Not Module Rule.** Build continuous editorial relationships; never isolate every idea inside a landing-page card.
 
 ## Elevation & Depth
 
-Depth comes from printed sheets, mounted paintings, and paint daubs. Buttons and labels use square black offset shadows; the happenings poster is rotated and enlarged inside a black border; the map pin uses a black frame with an amber offset. Artwork itself supplies deep painterly space while the interface remains materially flat.
+The system is flat. Hierarchy comes from overlap, bleed, rotation, rules, and paper contrast. The mobile cover copy overlaps its image; the feature broadside rotates -1.5°; the visit map bleeds left by 6vw. Buttons use borders and color reversal, not shadows.
 
-### Shadow Vocabulary
-
-- **Paint Label** (`5px 6px 0 #100d0a`): Small rough-edged label lift.
-- **Poster Button** (`7px 8px 0 #100d0a`): Default action lift, compressed to 4px by 5px on hover.
-- **Map Marker** (`14px 16px 0 #f0a51b`): Amber offset behind the black-framed location block.
-- **Map Divider** (`8px 0 0 #100d0a`): Desktop split-canvas seam; becomes a top offset when stacked.
-
-**The Printed Layers Rule.** Shadows are opaque, directional, and hard; never introduce soft ambient card shadows or glass effects.
+**The Editorial Flatness Rule.** Prefer rules, overlap, crop, and stock contrast to shadows. Impasto depth belongs inside the artwork.
 
 ## Shapes
 
-The form language is rectangular, cropped, and rough-edged. Buttons, labels, panels, world blocks, and the map marker have square corners. Rotation of -1° to -5° supplies handmade irregularity. Thick black borders, overscaled background letters, and paint stripes create silhouettes; no rounded-card vocabulary is present.
+All geometry is rectangular and square-cornered. Fine 1px rules, occasional 3–12px top rules, image crops, and column edges define form. Rotation is restrained to cover-like artifacts and feature headlines. There are no pills, rounded cards, or decorative circles.
 
 ## Components
 
 ### Buttons
 
-- **Shape:** Square poster label with a hard black offset.
-- **Oxblood:** Directions action on parchment.
-- **Petrol:** Facebook action on near-black.
-- **Amber:** Map action with black text.
-- **Hover / Focus:** Shift 3px down/right with a slight -1° rotation; focus uses a 3px Amber outline at 4px offset.
-
-### Chips
-
-- **Paint Label:** Petrol rectangle, Parchment Light uppercase text, slight -1° rotation, black offset.
-- **Light Variant:** Parchment surface with Gallery Black text on dark sections.
+- **Shape:** Compact editorial label with a 1px current-color border.
+- **Oxblood:** Directions on the cover panel.
+- **Petrol:** Facebook action in the feature spread.
+- **Amber:** Map action on paper.
+- **Hover / Focus:** Hover reverses to Coffee Ink and Paper Light; focus uses a 3px Burnt Orange outline.
 
 ### Cards / Containers
 
-- **Poster Fields:** Two-up grid of Amber, Petrol, Parchment, and Burnt Orange with 4px Gallery Black borders.
-- **World Marker:** Oversized Anton character paired with a title and compact description.
-- **Happenings Poster:** Amber sheet, 18px black frame, -2° rotation, slight scale-up.
+- **Cover Panel:** Parchment overlap with an 8px Oxblood top rule and 1px baseline.
+- **Index Entry:** Border-bottom row with oversized colored marker; first entry spans two rows.
+- **Feature Broadside:** Paper Light with a 12px Amber top rule, 1px baseline, and -1.5° rotation.
+- **Reading Columns:** Two balanced columns separated by whitespace, never boxes.
 
 ### Navigation
 
-An 84px Gallery Black header with Parchment type and a 3px Burnt Orange rule. The A1 mark uses Amber; ordinary links become Amber on hover, while Facebook is an Oxblood block. Below 680px, an Amber three-line control reveals a stacked black panel.
+The masthead pairs an oversized Anton wordmark with compact uppercase navigation on Editorial Paper and a 1px rule. A1 is Oxblood; Facebook is Coffee Ink. Mobile reveals a full-width paper panel with 44px targets.
 
-### Split-Canvas Hero
+### Issue Furniture
 
-The left parchment panel owns message, promise, and directions. The right side is an edge-to-edge expressionist painting with a monumental coffee cup and active café background. A small black caption labels the original concept artwork without competing with it.
+“A1 / VOL. 01,” the issue line, location, artwork caption, “THE A1 INDEX,” “MONTE VISTA,” and “THE LAST PAGE” orient readers like folios and running heads.
 
-### Paint Pin
+### Typographic Interlude
 
-A square Burnt Orange marker with 8px Gallery Black border and large Amber offset. It is rotated -5° and uses oversized Anton A1 above a compact label.
+“Pour · Pause · Paint · Connect” is a full-width line of Anton words separated by Burnt Orange dots. It paces the publication rather than acting as navigation.
+
+### Visit Spread
+
+The teal map bleeds beyond the left edge and carries translucent “MONTE VISTA” furniture. A square orange A1 pin sits within it; the address begins with an 8px Oxblood rule.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** let impasto café artwork carry atmosphere at architectural scale.
-- **Do** use black borders and gutters to frame saturated poster fields.
-- **Do** keep color blocks large, categorical, and compositionally intentional.
-- **Do** pair Anton statements with condensed, readable Barlow copy.
-- **Do** preserve the split between immersive art and actionable information.
+- **Do** compose cover stories, indexes, features, interludes, and closing pages.
+- **Do** use fine rules and issue furniture for editorial continuity.
+- **Do** let expressionist imagery bleed and crop at architectural scale.
+- **Do** vary column span, vertical entry point, and type scale intentionally.
+- **Do** collapse complex spreads into a clear mobile reading order.
 
 ### Don't:
 
-- **Don't** soften the world into beige café minimalism or sterile gallery white.
-- **Don't** crop production artwork so tightly that the café community disappears.
-- **Don't** use rounded cards, pill buttons, gradients, glass, or diffuse shadows.
-- **Don't** turn every phrase into display type; contrast depends on quieter body copy.
-- **Don't** scatter saturated colors as arbitrary badges when they can own a full poster field.
+- **Don't** restore a checkerboard of equal landing-page blocks.
+- **Don't** add shadows when overlap, rules, or bleed create hierarchy.
+- **Don't** use rounded cards, pills, gradients, glass, or sterile white stock.
+- **Don't** make the uneven index mathematically uniform.
+- **Don't** let editorial furniture compete with the story or visit action.

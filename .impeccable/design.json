@@ -1,89 +1,84 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-22T12:00:00+02:00",
+  "generatedAt": "2026-08-22T13:00:00+02:00",
   "title": "Design System: A1 Brews",
   "extensions": {
     "colorMeta": {
-      "gallery-black": { "role": "primary", "displayName": "Gallery Black", "canonical": "#100d0a", "tonalRamp": ["#100d0a", "oklch(25% .015 55)", "oklch(37% .018 55)", "oklch(49% .018 55)", "oklch(61% .015 55)", "oklch(73% .012 55)", "oklch(85% .008 55)", "oklch(95% .004 55)"] },
-      "coffee-ink": { "role": "neutral", "displayName": "Coffee Ink", "canonical": "#20120b", "tonalRamp": ["#20120b", "oklch(25% .03 48)", "oklch(37% .04 48)", "oklch(49% .04 48)", "oklch(61% .035 48)", "oklch(73% .025 48)", "oklch(85% .015 48)", "oklch(95% .006 48)"] },
-      "parchment": { "role": "primary", "displayName": "Parchment", "canonical": "#ead7aa", "tonalRamp": ["oklch(15% .03 82)", "oklch(27% .04 82)", "oklch(39% .05 82)", "oklch(51% .06 82)", "oklch(63% .065 82)", "oklch(75% .06 82)", "#ead7aa", "oklch(95% .02 82)"] },
-      "parchment-light": { "role": "neutral", "displayName": "Parchment Light", "canonical": "#f3e5bd", "tonalRamp": ["oklch(15% .025 82)", "oklch(27% .035 82)", "oklch(39% .045 82)", "oklch(51% .05 82)", "oklch(63% .05 82)", "oklch(75% .045 82)", "oklch(87% .035 82)", "#f3e5bd"] },
-      "parchment-muted": { "role": "neutral", "displayName": "Parchment Muted", "canonical": "#d6c18e", "tonalRamp": ["oklch(15% .03 82)", "oklch(27% .04 82)", "oklch(39% .05 82)", "oklch(51% .06 82)", "oklch(63% .065 82)", "#d6c18e", "oklch(87% .035 82)", "oklch(95% .015 82)"] },
-      "molten-amber": { "role": "secondary", "displayName": "Molten Amber", "canonical": "#f0a51b", "tonalRamp": ["oklch(15% .07 76)", "oklch(27% .11 76)", "oklch(39% .15 76)", "oklch(51% .18 76)", "oklch(63% .19 76)", "#f0a51b", "oklch(87% .09 76)", "oklch(95% .03 76)"] },
-      "burnt-orange": { "role": "secondary", "displayName": "Burnt Orange", "canonical": "#d65418", "tonalRamp": ["oklch(15% .08 43)", "oklch(27% .13 43)", "oklch(39% .17 43)", "#d65418", "oklch(63% .17 43)", "oklch(75% .12 43)", "oklch(87% .06 43)", "oklch(95% .02 43)"] },
-      "oxblood": { "role": "secondary", "displayName": "Oxblood", "canonical": "#7c1f16", "tonalRamp": ["oklch(15% .07 30)", "oklch(27% .12 30)", "#7c1f16", "oklch(51% .16 30)", "oklch(63% .14 30)", "oklch(75% .10 30)", "oklch(87% .05 30)", "oklch(95% .02 30)"] },
-      "petrol-blue": { "role": "tertiary", "displayName": "Petrol Blue", "canonical": "#0e3b4c", "tonalRamp": ["oklch(15% .04 228)", "#0e3b4c", "oklch(39% .075 228)", "oklch(51% .08 228)", "oklch(63% .07 228)", "oklch(75% .05 228)", "oklch(87% .025 228)", "oklch(95% .01 228)"] },
-      "studio-teal": { "role": "tertiary", "displayName": "Studio Teal", "canonical": "#315c59", "tonalRamp": ["oklch(15% .025 190)", "oklch(27% .045 190)", "#315c59", "oklch(51% .06 190)", "oklch(63% .055 190)", "oklch(75% .04 190)", "oklch(87% .02 190)", "oklch(95% .008 190)"] }
+      "editorial-black": { "role": "primary", "displayName": "Editorial Black", "canonical": "#100d0a", "tonalRamp": ["#100d0a","oklch(25% .015 55)","oklch(37% .018 55)","oklch(49% .018 55)","oklch(61% .015 55)","oklch(73% .012 55)","oklch(85% .008 55)","oklch(95% .004 55)"] },
+      "coffee-ink": { "role": "primary", "displayName": "Coffee Ink", "canonical": "#20120b", "tonalRamp": ["#20120b","oklch(25% .03 48)","oklch(37% .04 48)","oklch(49% .04 48)","oklch(61% .035 48)","oklch(73% .025 48)","oklch(85% .015 48)","oklch(95% .006 48)"] },
+      "editorial-paper": { "role": "primary", "displayName": "Editorial Paper", "canonical": "#ead7aa", "tonalRamp": ["oklch(15% .03 82)","oklch(27% .04 82)","oklch(39% .05 82)","oklch(51% .06 82)","oklch(63% .065 82)","oklch(75% .06 82)","#ead7aa","oklch(95% .02 82)"] },
+      "paper-light": { "role": "neutral", "displayName": "Paper Light", "canonical": "#f3e5bd", "tonalRamp": ["oklch(15% .025 82)","oklch(27% .035 82)","oklch(39% .045 82)","oklch(51% .05 82)","oklch(63% .05 82)","oklch(75% .045 82)","oklch(87% .035 82)","#f3e5bd"] },
+      "paper-muted": { "role": "neutral", "displayName": "Paper Muted", "canonical": "#cbb887", "tonalRamp": ["oklch(15% .03 82)","oklch(27% .04 82)","oklch(39% .05 82)","oklch(51% .06 82)","oklch(63% .065 82)","#cbb887","oklch(87% .035 82)","oklch(95% .015 82)"] },
+      "molten-amber": { "role": "secondary", "displayName": "Molten Amber", "canonical": "#f0a51b", "tonalRamp": ["oklch(15% .07 76)","oklch(27% .11 76)","oklch(39% .15 76)","oklch(51% .18 76)","oklch(63% .19 76)","#f0a51b","oklch(87% .09 76)","oklch(95% .03 76)"] },
+      "burnt-orange": { "role": "secondary", "displayName": "Burnt Orange", "canonical": "#d65418", "tonalRamp": ["oklch(15% .08 43)","oklch(27% .13 43)","oklch(39% .17 43)","#d65418","oklch(63% .17 43)","oklch(75% .12 43)","oklch(87% .06 43)","oklch(95% .02 43)"] },
+      "oxblood": { "role": "secondary", "displayName": "Oxblood", "canonical": "#7c1f16", "tonalRamp": ["oklch(15% .07 30)","oklch(27% .12 30)","#7c1f16","oklch(51% .16 30)","oklch(63% .14 30)","oklch(75% .10 30)","oklch(87% .05 30)","oklch(95% .02 30)"] },
+      "petrol": { "role": "tertiary", "displayName": "Petrol", "canonical": "#0e3b4c", "tonalRamp": ["oklch(15% .04 228)","#0e3b4c","oklch(39% .075 228)","oklch(51% .08 228)","oklch(63% .07 228)","oklch(75% .05 228)","oklch(87% .025 228)","oklch(95% .01 228)"] },
+      "teal": { "role": "tertiary", "displayName": "Teal", "canonical": "#315c59", "tonalRamp": ["oklch(15% .025 190)","oklch(27% .045 190)","#315c59","oklch(51% .06 190)","oklch(63% .055 190)","oklch(75% .04 190)","oklch(87% .02 190)","oklch(95% .008 190)"] }
     },
     "typographyMeta": {
-      "display": { "displayName": "Broadside Display", "purpose": "Hero stack and largest poster calls." },
-      "headline": { "displayName": "Poster Headline", "purpose": "Manifesto, happenings, visit, and closing statements." },
-      "title": { "displayName": "World Title", "purpose": "Four-world headings and local statements." },
-      "body": { "displayName": "Condensed Body", "purpose": "Readable descriptive and practical copy." },
-      "label": { "displayName": "Paint Label", "purpose": "Navigation, buttons, captions, and annotations." }
+      "display": { "displayName": "Cover Display", "purpose": "Overlapping cover headline and largest last-page lines." },
+      "headline": { "displayName": "Spread Headline", "purpose": "Manifesto and feature statements." },
+      "title": { "displayName": "Index Title", "purpose": "Uneven A1 index entries." },
+      "body": { "displayName": "Editorial Body", "purpose": "Multi-column and practical reading copy." },
+      "label": { "displayName": "Issue Furniture", "purpose": "Folios, captions, running heads, and controls." }
     },
-    "shadows": [
-      { "name": "paint-label", "value": "5px 6px 0 #100d0a", "purpose": "Rough label lift." },
-      { "name": "poster-button", "value": "7px 8px 0 #100d0a", "purpose": "Action lift that compresses on hover." },
-      { "name": "map-marker", "value": "14px 16px 0 #f0a51b", "purpose": "Amber offset behind the location block." },
-      { "name": "map-divider", "value": "8px 0 0 #100d0a", "purpose": "Split-canvas seam beside the map." }
-    ],
+    "shadows": [],
     "motion": [
-      { "name": "poster-press", "value": "transform .18s ease, box-shadow .18s ease", "purpose": "Button press with translation and slight rotation." },
+      { "name": "color-reversal", "value": "background .18s ease, color .18s ease", "purpose": "Editorial button hover reversal." },
       { "name": "reduced-motion", "value": "transition-duration: .01ms", "purpose": "Reduced-motion override." }
     ],
-    "breakpoints": [{ "name": "stack", "value": "900px" }, { "name": "mobile", "value": "680px" }]
+    "breakpoints": [{ "name": "tablet", "value": "900px" }, { "name": "mobile", "value": "680px" }]
   },
   "components": [
     {
-      "name": "Oxblood Button", "kind": "button", "refersTo": "button-oxblood", "description": "Primary directions action on parchment.",
+      "name": "Oxblood Editorial Button", "kind": "button", "refersTo": "button-oxblood", "description": "Directions action on the cover overlap.",
       "html": "<a class=\"ds-btn-oxblood\" href=\"#\">GET DIRECTIONS <span>↗</span></a>",
-      "css": ".ds-btn-oxblood{display:inline-flex;align-items:center;gap:1.4rem;padding:.95rem 1.25rem;background:var(--oxblood,#7c1f16);color:var(--paper-light,#f3e5bd);font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-decoration:none;text-transform:uppercase;box-shadow:7px 8px 0 var(--black,#100d0a);transition:transform .18s ease,box-shadow .18s ease}.ds-btn-oxblood:hover{transform:translate(3px,3px) rotate(-1deg);box-shadow:4px 5px 0 var(--black,#100d0a)}.ds-btn-oxblood:focus-visible{outline:3px solid var(--amber,#f0a51b);outline-offset:4px}.ds-btn-oxblood:active{transform:translate(5px,5px);box-shadow:2px 3px 0 var(--black,#100d0a)}"
+      "css": ".ds-btn-oxblood{display:inline-flex;align-items:center;gap:1.2rem;padding:.8rem 1rem;background:var(--oxblood,#7c1f16);color:var(--paper-light,#f3e5bd);border:1px solid var(--oxblood,#7c1f16);font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-decoration:none;text-transform:uppercase;transition:background .18s ease,color .18s ease}.ds-btn-oxblood:hover{background:var(--ink,#20120b);color:var(--paper-light,#f3e5bd)}.ds-btn-oxblood:focus-visible{outline:3px solid var(--orange,#d65418);outline-offset:4px}"
     },
     {
-      "name": "Petrol Button", "kind": "button", "refersTo": "button-petrol", "description": "Facebook action on Gallery Black.",
+      "name": "Petrol Editorial Button", "kind": "button", "refersTo": "button-petrol", "description": "Facebook action in the feature spread.",
       "html": "<a class=\"ds-btn-petrol\" href=\"#\">SEE WHAT'S HAPPENING <span>↗</span></a>",
-      "css": ".ds-btn-petrol{display:inline-flex;align-items:center;gap:1.4rem;padding:.95rem 1.25rem;background:var(--petrol,#0e3b4c);color:var(--paper-light,#f3e5bd);font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-decoration:none;text-transform:uppercase;box-shadow:7px 8px 0 var(--black,#100d0a);transition:transform .18s ease,box-shadow .18s ease}.ds-btn-petrol:hover{transform:translate(3px,3px) rotate(-1deg);box-shadow:4px 5px 0 var(--black,#100d0a)}.ds-btn-petrol:focus-visible{outline:3px solid var(--amber,#f0a51b);outline-offset:4px}"
+      "css": ".ds-btn-petrol{display:inline-flex;align-items:center;gap:1.2rem;padding:.8rem 1rem;background:var(--petrol,#0e3b4c);color:var(--paper-light,#f3e5bd);border:1px solid currentColor;font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-decoration:none;text-transform:uppercase;transition:background .18s ease,color .18s ease}.ds-btn-petrol:hover{background:var(--ink,#20120b)}.ds-btn-petrol:focus-visible{outline:3px solid var(--orange,#d65418);outline-offset:4px}"
     },
     {
-      "name": "Amber Button", "kind": "button", "refersTo": "button-amber", "description": "Map action on parchment.",
-      "html": "<a class=\"ds-btn-amber\" href=\"#\">OPEN IN MAPS <span>↗</span></a>",
-      "css": ".ds-btn-amber{display:inline-flex;align-items:center;gap:1.4rem;padding:.95rem 1.25rem;background:var(--amber,#f0a51b);color:var(--black,#100d0a);font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-decoration:none;text-transform:uppercase;box-shadow:7px 8px 0 var(--black,#100d0a);transition:transform .18s ease,box-shadow .18s ease}.ds-btn-amber:hover{transform:translate(3px,3px) rotate(-1deg);box-shadow:4px 5px 0 var(--black,#100d0a)}.ds-btn-amber:focus-visible{outline:3px solid var(--amber,#f0a51b);outline-offset:4px}"
+      "name": "Cover Story Panel", "kind": "custom", "description": "Parchment headline column overlapping cover art.",
+      "html": "<article class=\"ds-cover-panel\"><p class=\"ds-issue\">THE NEIGHBOURHOOD ISSUE · COFFEE / ART / PEOPLE</p><h2>COFFEE.<br>ART.<br><span>COMMUNITY.</span></h2><p>Good vibes. Great brews.</p></article>",
+      "css": ".ds-cover-panel{max-width:560px;padding:2.2rem 2.4rem 2.5rem 0;background:var(--paper,#ead7aa);color:var(--ink,#20120b);border-top:8px solid var(--oxblood,#7c1f16);border-bottom:1px solid var(--ink,#20120b);font-family:'Barlow Condensed','Arial Narrow',sans-serif}.ds-cover-panel h2{margin:0;font:400 clamp(4rem,8vw,7rem)/.85 'Anton',Impact,sans-serif;letter-spacing:-.03em;text-transform:uppercase}.ds-cover-panel h2 span{color:var(--oxblood,#7c1f16)}.ds-issue{font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}"
     },
     {
-      "name": "Paint Label", "kind": "chip", "refersTo": "paint-label", "description": "Rotated petrol annotation with a black offset.",
-      "html": "<span class=\"ds-paint-label\">MONTE VISTA · CAPE TOWN</span>",
-      "css": ".ds-paint-label{display:inline-block;padding:.35rem .65rem;background:var(--petrol,#0e3b4c);color:var(--paper-light,#f3e5bd);font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;transform:rotate(-1deg);box-shadow:5px 6px 0 var(--black,#100d0a)}"
+      "name": "A1 Index Entry", "kind": "card", "description": "Uneven editorial index row with oversized marker.",
+      "html": "<article class=\"ds-index-entry\"><p class=\"ds-index-mark\">A</p><div><h3>GREAT COFFEE</h3><p>A proper pause, freshly made.</p></div></article>",
+      "css": ".ds-index-entry{min-height:260px;padding:2.2rem 2rem 2.2rem 0;display:grid;grid-template-columns:auto 1fr;align-content:start;gap:1.2rem;border-bottom:1px solid var(--ink,#20120b);color:var(--ink,#20120b);font-family:'Barlow Condensed','Arial Narrow',sans-serif}.ds-index-mark{margin:0;color:var(--oxblood,#7c1f16);font:400 6rem/.8 'Anton',Impact,sans-serif}.ds-index-entry h3{margin:0;font:400 3rem/.92 'Anton',Impact,sans-serif;text-transform:uppercase}.ds-index-entry div p{max-width:30ch;margin:.8rem 0 0}"
     },
     {
-      "name": "World Poster", "kind": "card", "description": "A bold categorical field for one facet of A1 Brews.",
-      "html": "<article class=\"ds-world-poster\"><p class=\"ds-world-no\">A</p><div><h3>GREAT COFFEE</h3><p>A proper pause, freshly made.</p></div></article>",
-      "css": ".ds-world-poster{min-height:300px;padding:3rem;display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:end;border:4px solid var(--black,#100d0a);background:var(--amber,#f0a51b);color:var(--black,#100d0a);font-family:'Barlow Condensed','Arial Narrow',sans-serif}.ds-world-no{margin:0;font:400 8rem/.75 'Anton',Impact,sans-serif}.ds-world-poster h3{margin:0;font:400 3rem/.9 'Anton',Impact,sans-serif;text-transform:uppercase}.ds-world-poster div p{max-width:32ch;margin:1rem 0 0;font-size:1.2rem}"
+      "name": "Rotated Feature Broadside", "kind": "custom", "description": "Slightly rotated feature title spread with amber rule.",
+      "html": "<div class=\"ds-feature-broadside\"><span>WHAT'S</span><strong>HAPPENING?</strong><p>FOLLOW THE PAINT TRAIL →</p></div>",
+      "css": ".ds-feature-broadside{max-width:620px;padding:3rem 2rem 4rem;background:var(--paper-light,#f3e5bd);color:var(--ink,#20120b);border-top:12px solid var(--amber,#f0a51b);border-bottom:1px solid var(--ink,#20120b);transform:rotate(-1.5deg);font-family:'Barlow Condensed','Arial Narrow',sans-serif}.ds-feature-broadside span,.ds-feature-broadside strong{display:block;font:400 clamp(5rem,10vw,9rem)/.78 'Anton',Impact,sans-serif;text-transform:uppercase}.ds-feature-broadside strong{color:var(--oxblood,#7c1f16)}.ds-feature-broadside p{margin:3rem 0 0;font-weight:800;text-transform:uppercase}"
     },
     {
-      "name": "Happenings Broadside", "kind": "custom", "description": "Rotated Amber poster announcing activity.",
-      "html": "<div class=\"ds-broadside\"><span>WHAT'S</span><strong>HAPPENING?</strong><p>FOLLOW THE PAINT TRAIL →</p></div>",
-      "css": ".ds-broadside{max-width:520px;padding:4rem;background:var(--amber,#f0a51b);color:var(--black,#100d0a);border:18px solid var(--black,#100d0a);transform:rotate(-2deg);font-family:'Barlow Condensed','Arial Narrow',sans-serif}.ds-broadside span,.ds-broadside strong{display:block;font:400 clamp(4rem,9vw,7rem)/.85 'Anton',Impact,sans-serif;text-transform:uppercase}.ds-broadside strong{color:var(--oxblood,#7c1f16)}.ds-broadside p{margin:3rem 0 0;font-weight:800;text-transform:uppercase}"
+      "name": "Typographic Interlude", "kind": "custom", "description": "Full-width atmospheric pacing line.",
+      "html": "<div class=\"ds-interlude\"><p>POUR</p><span>·</span><p>PAUSE</p><span>·</span><p>PAINT</p><span>·</span><p>CONNECT</p></div>",
+      "css": ".ds-interlude{padding:3rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;background:var(--paper,#ead7aa);color:var(--ink,#20120b);border-bottom:1px solid var(--ink,#20120b)}.ds-interlude p{margin:0;font:400 clamp(2.8rem,7vw,6.8rem)/1 'Anton',Impact,sans-serif}.ds-interlude span{color:var(--orange,#d65418);font-size:2rem}"
     },
     {
-      "name": "Paint Pin", "kind": "custom", "description": "Square painted map marker with amber offset.",
-      "html": "<div class=\"ds-paint-pin\"><b>A1</b><span>YOU'RE HERE</span></div>",
-      "css": ".ds-paint-pin{width:150px;height:150px;display:grid;place-content:center;text-align:center;background:var(--orange,#d65418);color:var(--black,#100d0a);border:8px solid var(--black,#100d0a);box-shadow:14px 16px 0 var(--amber,#f0a51b);transform:rotate(-5deg)}.ds-paint-pin b{font:400 4rem/1 'Anton',Impact,sans-serif}.ds-paint-pin span{font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase}"
+      "name": "Visit Map Pin", "kind": "custom", "description": "Square orange location marker within the teal image-bleed spread.",
+      "html": "<div class=\"ds-map-pin\"><b>A1</b><span>YOU'RE HERE</span></div>",
+      "css": ".ds-map-pin{width:130px;height:130px;display:grid;place-content:center;text-align:center;background:var(--orange,#d65418);color:var(--ink,#20120b);border:5px solid var(--ink,#20120b);transform:rotate(-4deg)}.ds-map-pin b{font:400 3.6rem/1 'Anton',Impact,sans-serif}.ds-map-pin span{font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase}"
     }
   ],
   "narrative": {
-    "northStar": "The Expressionist Café Broadside",
-    "overview": "A1 Brews is presented as a living café canvas: a dense, warm room where coffee, local art, thrift, and community sit at the same table. The visual world translates the pinned expressionist reference into a broadside-like interface—near-black framing, parchment panels, molten amber light, burnt-orange marks, oxblood emphasis, and blue-green pigment.\n\nThe production artwork is the emotional anchor: visible impasto, crowded café energy, a monumental cup, painterly light, and art materials in use. Around it, poster-scale typography, rough-edged labels, split-canvas staging, hard borders, and physical offset shadows give the site the urgency of a hand-pulled event poster rather than a polished café template or sterile gallery.",
-    "keyCharacteristics": ["Near-black framing against parchment message panels.", "Expressionist impasto imagery with coffee and community sharing focus.", "Anton poster typography paired with Barlow Condensed utility copy.", "Oxblood, amber, burnt orange, petrol, and teal used as saturated paint fields.", "Split-canvas hero, oversized poster blocks, paint labels, and hard offsets."],
+    "northStar": "The Independent Arts Magazine",
+    "overview": "A1 Brews behaves like an independent arts-and-coffee magazine brought to life. Expressionist café artwork is the cover image; around it, fine rules, issue furniture, folios, overlapping headline columns, multi-column reading, and uneven index entries turn the interface into continuous editorial paper.\n\nParchment and near-black ink establish the publication. Amber, oxblood, orange, petrol, and teal act as printing inks and painterly interruptions. Energy comes from column spans, image bleed, typographic scale, restrained rotation, and deliberate misalignment—not generic cards.",
+    "keyCharacteristics": ["Cover-story overlap with issue number and caption furniture.","Fine ink rules, broad margins, columns, and editorial labels.","Anton display type paired with Barlow Condensed reading copy.","Multi-column manifesto with an oxblood drop cap.","Uneven A1 index, rotated feature, image-bleed visit spread, and last-page close."],
     "rules": [
-      { "name": "The Black Frame Rule", "body": "Gallery Black must visibly frame the experience through headers, borders, gutters, or hard shadows; it gives the paint fields their force.", "section": "colors" },
-      { "name": "The Painted Field Rule", "body": "Saturated colors occupy decisive poster-scale regions or specific labels. Avoid scattering them as tiny decorative accents.", "section": "colors" },
-      { "name": "The Broadside Voice Rule", "body": "Display copy stays short, uppercase, and compositionally oversized; paragraph-length content never uses Anton.", "section": "typography" },
-      { "name": "The One Red Word Rule", "body": "Oxblood may isolate one emotionally decisive word inside a black display stack, as “Community” does in the hero.", "section": "typography" },
-      { "name": "The Split Canvas Rule", "body": "Pair one legible message field with one immersive artifact or poster field; do not subdivide either side into dashboard-like cards.", "section": "layout" },
-      { "name": "The Printed Layers Rule", "body": "Shadows are opaque, directional, and hard; never introduce soft ambient card shadows or glass effects.", "section": "elevation" }
+      { "name": "The Paper Is Continuous Rule", "body": "Parchment connects spreads; color fields interrupt it only with editorial purpose.", "section": "colors" },
+      { "name": "The Spot Ink Rule", "body": "Each saturated ink owns a clear role. Never scatter them as decorative badges.", "section": "colors" },
+      { "name": "The Cover Line Rule", "body": "Anton copy is short enough to function as a cover line or pull quote; paragraphs remain Barlow Condensed.", "section": "typography" },
+      { "name": "The Drop Cap Rule", "body": "A long lead may open with one oxblood Anton initial at 5.8rem, floated into the first column.", "section": "typography" },
+      { "name": "The Spread, Not Module Rule", "body": "Build continuous editorial relationships; never isolate every idea inside a landing-page card.", "section": "layout" },
+      { "name": "The Editorial Flatness Rule", "body": "Prefer rules, overlap, crop, and stock contrast to shadows. Impasto depth belongs inside the artwork.", "section": "elevation" }
     ],
-    "dos": ["Do let impasto café artwork carry atmosphere at architectural scale.", "Do use black borders and gutters to frame saturated poster fields.", "Do keep color blocks large, categorical, and compositionally intentional.", "Do pair Anton statements with condensed, readable Barlow copy.", "Do preserve the split between immersive art and actionable information."],
-    "donts": ["Don't soften the world into beige café minimalism or sterile gallery white.", "Don't crop production artwork so tightly that the café community disappears.", "Don't use rounded cards, pill buttons, gradients, glass, or diffuse shadows.", "Don't turn every phrase into display type; contrast depends on quieter body copy.", "Don't scatter saturated colors as arbitrary badges when they can own a full poster field."]
+    "dos": ["Do compose cover stories, indexes, features, interludes, and closing pages.","Do use fine rules and issue furniture for editorial continuity.","Do let expressionist imagery bleed and crop at architectural scale.","Do vary column span, vertical entry point, and type scale intentionally.","Do collapse complex spreads into a clear mobile reading order."],
+    "donts": ["Don't restore a checkerboard of equal landing-page blocks.","Don't add shadows when overlap, rules, or bleed create hierarchy.","Don't use rounded cards, pills, gradients, glass, or sterile white stock.","Don't make the uneven index mathematically uniform.","Don't let editorial furniture compete with the story or visit action."]
   }
 }
