@@ -67,7 +67,12 @@ function Hero() {
 function Story() {
   return <section className="story section" id="story">
     <span className="section-no">01 / THE SPACE</span>
-    <figure><img src={hero900} width="900" height="600" loading="lazy" decoding="async" alt="Painterly concept detail of the A1 Brews atmosphere"/><figcaption>FIG. 01 — CONCEPT STUDY / COFFEE + ART</figcaption></figure>
+    <figure className="real-photos">
+      <img src="./assets/a1-facebook-entrance.webp" width="980" height="600" loading="lazy" decoding="async" alt="Entrance walkway and clothing displays at A1 Brews and The Hive Thrift Shop"/>
+      <img src="./assets/a1-facebook-counter.webp" width="960" height="390" loading="lazy" decoding="async" alt="Coffee and cake counter inside A1 Brews"/>
+      <img src="./assets/a1-facebook-thrift.webp" width="990" height="450" loading="lazy" decoding="async" alt="Pre-loved clothing and homeware inside The Hive Thrift Shop"/>
+      <figcaption>FIG. 01–03 — REAL VIEWS / VIA A1 BREWS FACEBOOK</figcaption>
+    </figure>
     <div className="story-copy"><p className="script">More than coffee</p><h2>A ROOM FOR<br/><span>CREATIVE PEOPLE.</span></h2><p className="story-lead">A1 Brews brings coffee, local art, thrift finds and conversation together in one neighbourhood space.</p><p>Come to pause, browse, make, listen—or simply feel at home.</p><ul><li>Fresh coffee</li><li>Local art and thrift finds</li><li>Creative community events</li></ul><ArrowLink href={FB}>FOLLOW OUR STORY</ArrowLink></div>
   </section>;
 }
