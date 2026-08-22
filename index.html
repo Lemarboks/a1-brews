@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet" />
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
   </head>
   <body>
     <!--
@@ -21,73 +21,6 @@
       FIRST VIEWPORT: A cover-story composition overlaps a narrow parchment headline column over a large expressionist café image; issue details and directions frame the image like magazine furniture.
       FORM: Independent arts magazine; overlapping cover staging with continuous editorial spreads; user-pinned Pinterest direction.
     -->
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="A1 Brews home"><span>A1</span> BREWS</a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
-      <nav id="site-nav" aria-label="Main navigation">
-        <a href="#experience">The space</a><a href="#happenings">Art + community</a><a href="#visit">Visit</a>
-        <a class="nav-cta" href="https://www.facebook.com/profile.php?id=61576917570189" target="_blank" rel="noreferrer">Facebook ↗</a>
-      </nav>
-    </header>
-    <main id="main">
-      <section class="hero" id="top">
-        <div class="hero-copy">
-          <p class="issue-line">The neighbourhood issue · Coffee / Art / People</p>
-          <p class="paint-label">Monte Vista · Cape Town</p>
-          <h1>Coffee.<br />Art.<br /><span>Community.</span></h1>
-          <p class="hero-line">Good vibes. Great brews.<br />Where every cup feels like home.</p>
-          <div class="hero-actions">
-            <a class="button button-rust" href="https://www.google.com/maps/search/?api=1&query=No.+4+Monte+Vista+Boulevard,+Cape+Town" target="_blank" rel="noreferrer">Get directions <span>↗</span></a>
-            <a class="plain-link" href="#experience">See what’s inside ↓</a>
-          </div>
-        </div>
-        <figure class="hero-art">
-          <picture>
-            <source media="(max-width: 680px)" srcset="./assets/a1-expressionist-cafe-900.webp" />
-            <source type="image/webp" srcset="./assets/a1-expressionist-cafe-900.webp 900w, ./assets/a1-expressionist-cafe-1536.webp 1536w" sizes="(max-width: 900px) 100vw, 61vw" />
-            <img src="./assets/a1-expressionist-cafe.png" width="1536" height="1024" fetchpriority="high" alt="Expressionist painting of a large coffee cup inside a lively café and art space" />
-          </picture>
-          <figcaption>Original concept artwork · A1 Brews</figcaption>
-        </figure>
-      </section>
-      <section class="manifesto" id="experience">
-        <div class="manifesto-title"><p class="paint-label label-light">More than a coffee shop</p><h2>There’s always<br />room at the table.</h2></div>
-        <div class="manifesto-copy">
-          <p class="lead">A1 Brews brings together the things that make a neighbourhood feel alive: a good cup, a bold idea, a found treasure, and people who want to share the moment.</p>
-          <p>Come through for coffee. Stay to look, make, talk, browse, listen, or simply take a breather. This is a welcoming local space with creativity built into its walls.</p>
-        </div>
-      </section>
-      <section class="four-worlds" aria-label="What you will find at A1 Brews">
-        <article class="world world-coffee"><p class="world-no">A</p><div><h3>Great coffee</h3><p>A proper pause, freshly made. Ask in store for the current menu.</p></div></article>
-        <article class="world world-art"><p class="world-no">1</p><div><h3>Local art</h3><p>A home for creative work, shared ideas, and the makers behind them.</p></div></article>
-        <article class="world world-thrift"><p class="world-no">+</p><div><h3>Thrift finds</h3><p>Unexpected pieces with a story, waiting for their next chapter.</p></div></article>
-        <article class="world world-people"><p class="world-no">YOU</p><div><h3>Good people</h3><p>A creative neighbourhood meeting place where every cup feels like home.</p></div></article>
-      </section>
-      <section class="happenings" id="happenings">
-        <div class="happenings-poster"><span>What’s</span><strong>Happening?</strong><p>Follow the paint trail →</p></div>
-        <div class="happenings-copy">
-          <p class="paint-label">A space that gets used</p><h2>Make something.<br />Meet someone.</h2>
-          <p>A1 Brews has welcomed local arts-and-crafts gatherings, prize-givings, communal doodle art, and live music. The room changes with the people in it—and that is the point.</p>
-          <p class="note">For the latest creative gatherings, shop updates, and current opening times, check the A1 Brews Facebook page.</p>
-          <a class="button button-blue" href="https://www.facebook.com/profile.php?id=61576917570189" target="_blank" rel="noreferrer">See what’s happening <span>↗</span></a>
-        </div>
-      </section>
-      <section class="rhythm" aria-label="A1 Brews atmosphere"><p>Pour</p><span>·</span><p>Pause</p><span>·</span><p>Paint</p><span>·</span><p>Connect</p></section>
-      <section class="visit" id="visit">
-        <div class="visit-map" aria-hidden="true">
-          <svg viewBox="0 0 640 520"><path d="M-30 110 C92 32 164 146 262 108 S434 20 685 96" /><path d="M-20 410 C138 350 130 236 248 254 S400 355 675 246" /><path d="M120 -20 C180 108 320 124 300 240 S260 410 352 550" /><path d="M492 -20 C430 128 540 176 488 304 S532 450 624 548" /></svg>
-          <div class="paint-pin"><b>A1</b><span>You’re here</span></div>
-        </div>
-        <div class="visit-copy">
-          <p class="paint-label label-light">Find the front door</p><h2>Your local<br />creative stop.</h2>
-          <address>No. 4 Monte Vista Boulevard<br />Cape Town, South Africa</address>
-          <a class="button button-gold" href="https://www.google.com/maps/search/?api=1&query=No.+4+Monte+Vista+Boulevard,+Cape+Town" target="_blank" rel="noreferrer">Open in Maps <span>↗</span></a>
-          <p class="visit-note">Menu and opening times may change. Check Facebook before your visit for the latest information.</p>
-        </div>
-      </section>
-      <section class="closing"><p>Good coffee.</p><p>Open minds.</p><p>Colour everywhere.</p><a href="https://www.facebook.com/profile.php?id=61576917570189" target="_blank" rel="noreferrer">Follow A1 Brews on Facebook ↗</a></section>
-    </main>
-    <footer><a class="brand brand-footer" href="#top"><span>A1</span> BREWS</a><p>Coffee · Art · Thrift · Community</p><p>© <span id="year"></span> A1 Brews</p></footer>
+    <div id="root"></div>
   </body>
 </html>
