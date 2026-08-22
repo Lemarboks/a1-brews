@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A1 Brews — coffee, art, thrift finds, and community at No. 4 Monte Vista Boulevard, Cape Town." />
+    <meta name="theme-color" content="#123ca8" />
+    <meta property="og:title" content="A1 Brews | Cape Town" />
+    <meta property="og:description" content="Good vibes. Great brews. Where every cup feels like home." />
+    <title>A1 Brews | Good vibes. Great brews.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <!--
+      THESIS: A1 Brews is the bright local waypoint in a daily route, refusing the generic beige coffee-shop template.
+      OWN-WORLD: Ultramarine fields, milk-white paper, espresso brown and tangerine markers; condensed sign typography, route lines, paint marks, and gallery labels.
+      STORY: Discover where coffee and creativity meet, feel the community welcome, locate the shop, then continue to Facebook or Maps.
+      FIRST VIEWPORT: A stacked slogan anchors the left; an oversized blue coffee cup becomes the destination marker on the right; visit action sits below the address.
+      FORM: Local-wayfinding collage, candidate 6; circular focal staging; seed e0d6ca06.
+    -->
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="A1 Brews home"><span>A1</span> BREWS</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span><span class="sr-only">Open menu</span>
+      </button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#coffee">Coffee + art</a>
+        <a href="#find-us">Find us</a>
+        <a class="nav-cta" href="https://www.facebook.com/profile.php?id=61576917570189" target="_blank" rel="noreferrer">Facebook <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="location-chip"><span aria-hidden="true">●</span> Monte Vista, Cape Town</p>
+          <h1>Good vibes.<br />Great brews.</h1>
+          <p class="hero-note">Coffee, art, thrift finds, and a place to belong.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://www.google.com/maps/search/?api=1&query=No.+4+Monte+Vista+Boulevard,+Cape+Town" target="_blank" rel="noreferrer">Get directions <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#coffee">Step inside the creative space</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Fresh black coffee in a blue cup">
+          <div class="route route-one" aria-hidden="true"></div>
+          <div class="route route-two" aria-hidden="true"></div>
+          <div class="coffee-frame">
+            <img src="/assets/a1-blue-coffee.png" alt="Black coffee served in a cobalt-blue cup and saucer" />
+          </div>
+          <div class="destination-stamp" aria-hidden="true"><b>A1</b><span>Your local stop</span></div>
+        </div>
+      </section>
+
+      <section class="welcome" id="coffee">
+        <div class="welcome-lead">
+          <p class="section-label">Made for the neighbourhood</p>
+          <h2>Come for coffee. Stay to create.</h2>
+        </div>
+        <p class="welcome-copy">A1 Brews brings good coffee together with local art, thrifted treasures, and the people who make them. It is a neighbourhood space to sip, sketch, share work, and feel at home.</p>
+        <div class="day-route" aria-label="The A1 Brews experience">
+          <article><span>First sip</span><h3>Great brews</h3><p>Start with a freshly made coffee and let the day slow down.</p></article>
+          <article><span>Fresh eyes</span><h3>Art all around</h3><p>Discover a space shaped by local makers, crafts, and creative expression.</p></article>
+          <article><span>Make a mark</span><h3>Community energy</h3><p>Gatherings, shared creativity, and good company give the shop its pulse.</p></article>
+        </div>
+        <p class="info-note">Ask in store or check Facebook for the latest menu and opening times.</p>
+      </section>
+
+      <section class="art-wall" aria-labelledby="art-title">
+        <div class="art-intro">
+          <p class="section-label">The other half of A1</p>
+          <h2 id="art-title">A café with creativity on the walls—and around the table.</h2>
+          <p>A1 Brews has welcomed local arts-and-crafts gatherings, communal doodling, prize-givings, and live music. Follow Facebook to see what is happening next.</p>
+          <a class="text-link" href="https://www.facebook.com/profile.php?id=61576917570189" target="_blank" rel="noreferrer">See the latest creative happenings <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="canvas-stack" aria-hidden="true">
+          <div class="canvas canvas-one"><span>BREW</span></div>
+          <div class="canvas canvas-two"><span>MAKE</span></div>
+          <div class="canvas canvas-three"><span>BELONG</span></div>
+        </div>
+      </section>
+
+      <section class="find" id="find-us">
+        <div class="map-graphic" aria-hidden="true">
+          <svg viewBox="0 0 640 480" role="img">
+            <path d="M-20 95 C90 145 130 42 244 108 S420 215 675 78" />
+            <path d="M42 460 C138 352 115 260 222 242 S390 291 517 183 625 120 670 128" />
+            <path d="M102 -10 C168 102 305 99 323 207 S279 380 365 510" />
+            <path d="M486 -20 C445 95 514 169 488 270 S510 409 612 500" />
+            <circle cx="323" cy="207" r="16" />
+          </svg>
+          <span class="map-pin">A1</span>
+          <span class="map-caption">Your stop is here</span>
+        </div>
+        <div class="find-copy">
+          <p class="section-label">Find your way</p>
+          <h2>Right around the corner.</h2>
+          <address>No. 4 Monte Vista Boulevard<br />Cape Town, South Africa</address>
+          <a class="button button-light" href="https://www.google.com/maps/search/?api=1&query=No.+4+Monte+Vista+Boulevard,+Cape+Town" target="_blank" rel="noreferrer">Open in Maps <span aria-hidden="true">↗</span></a>
+          <p class="small-print">For current opening times, announcements, and menu updates, visit our Facebook page.</p>
+        </div>
+      </section>
+
+      <section class="social-callout">
+        <p>From our counter to your feed.</p>
+        <h2>Follow the good stuff.</h2>
+        <a class="button button-primary" href="https://www.facebook.com/profile.php?id=61576917570189" target="_blank" rel="noreferrer">Visit A1 Brews on Facebook <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand brand-footer" href="#top"><span>A1</span> BREWS</a>
+      <p>Good vibes. Great brews.<br />Where every cup feels like home.</p>
+      <p class="copyright">© <span id="year"></span> A1 Brews</p>
+    </footer>
+  </body>
+</html>

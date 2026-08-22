@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-22T10:30:00+02:00",
+  "title": "Design System: A1 Brews",
+  "extensions": {
+    "colorMeta": {
+      "waypoint-blue": { "role": "primary", "displayName": "Waypoint Blue", "canonical": "#123ca8", "tonalRamp": ["oklch(15% 0.12 263)", "oklch(26% 0.15 263)", "oklch(38% 0.17 263)", "#123ca8", "oklch(61% 0.14 263)", "oklch(73% 0.10 263)", "oklch(85% 0.05 263)", "oklch(95% 0.02 263)"] },
+      "waypoint-blue-dark": { "role": "primary", "displayName": "Deep Waypoint Blue", "canonical": "#0b2e87", "tonalRamp": ["oklch(15% 0.11 263)", "oklch(24% 0.14 263)", "#0b2e87", "oklch(49% 0.16 263)", "oklch(61% 0.13 263)", "oklch(73% 0.09 263)", "oklch(85% 0.05 263)", "oklch(95% 0.02 263)"] },
+      "milk-paper": { "role": "neutral", "displayName": "Milk Paper", "canonical": "#f6f2e8", "tonalRamp": ["oklch(15% 0.015 84)", "oklch(26% 0.014 84)", "oklch(38% 0.013 84)", "oklch(50% 0.012 84)", "oklch(62% 0.011 84)", "oklch(74% 0.010 84)", "oklch(86% 0.009 84)", "#f6f2e8"] },
+      "marker-orange": { "role": "secondary", "displayName": "Marker Orange", "canonical": "#f45114", "tonalRamp": ["oklch(15% 0.10 39)", "oklch(26% 0.14 39)", "oklch(38% 0.18 39)", "oklch(50% 0.21 39)", "#f45114", "oklch(72% 0.17 39)", "oklch(84% 0.09 39)", "oklch(95% 0.03 39)"] },
+      "espresso-brown": { "role": "neutral", "displayName": "Espresso Brown", "canonical": "#24130e", "tonalRamp": ["#24130e", "oklch(26% 0.05 43)", "oklch(38% 0.06 43)", "oklch(50% 0.06 43)", "oklch(62% 0.05 43)", "oklch(74% 0.04 43)", "oklch(86% 0.025 43)", "oklch(95% 0.01 43)"] },
+      "sign-ink": { "role": "neutral", "displayName": "Sign Ink", "canonical": "#101010", "tonalRamp": ["#101010", "oklch(26% 0 0)", "oklch(38% 0 0)", "oklch(50% 0 0)", "oklch(62% 0 0)", "oklch(74% 0 0)", "oklch(86% 0 0)", "oklch(95% 0 0)"] },
+      "white": { "role": "neutral", "displayName": "White", "canonical": "#ffffff", "tonalRamp": ["oklch(15% 0 0)", "oklch(26% 0 0)", "oklch(38% 0 0)", "oklch(50% 0 0)", "oklch(62% 0 0)", "oklch(74% 0 0)", "oklch(86% 0 0)", "#ffffff"] },
+      "mist-blue": { "role": "neutral", "displayName": "Mist Blue", "canonical": "#e3e8fa", "tonalRamp": ["oklch(15% 0.03 263)", "oklch(26% 0.035 263)", "oklch(38% 0.04 263)", "oklch(50% 0.04 263)", "oklch(62% 0.035 263)", "oklch(74% 0.03 263)", "#e3e8fa", "oklch(95% 0.01 263)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display Sign", "purpose": "Hero slogans and the largest destination statements." },
+      "headline": { "displayName": "Section Sign", "purpose": "Uppercase section headings and visit prompts." },
+      "title": { "displayName": "Route Title", "purpose": "Timeline stages and compact emphatic statements." },
+      "body": { "displayName": "Condensed Body", "purpose": "Descriptive and practical copy." },
+      "label": { "displayName": "Wayfinding Label", "purpose": "Navigation, controls, chips, stamps, and annotations." }
+    },
+    "shadows": [
+      { "name": "control-offset", "value": "6px 6px 0 #24130e", "purpose": "Default tactile lift for buttons." },
+      { "name": "object-offset", "value": "18px 22px 0 rgba(36,19,14,.35)", "purpose": "Lift for the hero coffee medallion." },
+      { "name": "canvas-offset", "value": "18px 22px 0 rgba(36,19,14,.45)", "purpose": "Strong physical layering for framed art canvases." },
+      { "name": "marker-offset", "value": "8px 9px 0 #24130e", "purpose": "Compact lift for destination stamps." }
+    ],
+    "motion": [
+      { "name": "control-press", "value": "transform .2s ease, box-shadow .2s ease", "purpose": "Makes button hover feel like a physical press." },
+      { "name": "reduced-motion", "value": "transition-duration: .01ms", "purpose": "Removes meaningful transition duration when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "stack", "value": "900px" },
+      { "name": "mobile", "value": "680px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main visit or follow action on a light field.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">GET DIRECTIONS <span aria-hidden=\"true\">→</span></a>",
+      "css": ".ds-btn-primary { display:inline-flex; align-items:center; gap:1.2rem; padding:1rem 1.3rem; background:var(--orange, #f45114); color:#fff; font:900 1rem 'Barlow Condensed','Arial Narrow',sans-serif; text-transform:uppercase; text-decoration:none; box-shadow:6px 6px 0 var(--espresso, #24130e); transition:transform .2s ease,box-shadow .2s ease; } .ds-btn-primary:hover { transform:translate(3px,3px); box-shadow:3px 3px 0 var(--espresso, #24130e); } .ds-btn-primary:focus-visible { outline:3px solid var(--orange, #f45114); outline-offset:4px; } .ds-btn-primary:active { transform:translate(4px,4px); box-shadow:2px 2px 0 var(--espresso, #24130e); }"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "A high-contrast action for Waypoint Blue fields.",
+      "html": "<a class=\"ds-btn-light\" href=\"#\">OPEN IN MAPS <span aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-btn-light { display:inline-flex; align-items:center; gap:1.2rem; padding:1rem 1.3rem; background:var(--milk, #f6f2e8); color:var(--blue, #123ca8); font:900 1rem 'Barlow Condensed','Arial Narrow',sans-serif; text-transform:uppercase; text-decoration:none; box-shadow:6px 6px 0 var(--espresso, #24130e); transition:transform .2s ease,box-shadow .2s ease; } .ds-btn-light:hover { transform:translate(3px,3px); box-shadow:3px 3px 0 var(--espresso, #24130e); } .ds-btn-light:focus-visible { outline:3px solid var(--orange, #f45114); outline-offset:4px; } .ds-btn-light:active { transform:translate(4px,4px); box-shadow:2px 2px 0 var(--espresso, #24130e); }"
+    },
+    {
+      "name": "Navigation CTA",
+      "kind": "nav",
+      "refersTo": "navigation-cta",
+      "description": "The compact social destination action in the header.",
+      "html": "<a class=\"ds-nav-cta\" href=\"#\">FACEBOOK <span aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-nav-cta { display:inline-flex; gap:.4rem; padding:.7rem 1rem; background:var(--orange, #f45114); color:#fff; font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif; text-transform:uppercase; text-decoration:none; transition:transform .2s ease; } .ds-nav-cta:hover { transform:translateY(-2px); } .ds-nav-cta:focus-visible { outline:3px solid var(--orange, #f45114); outline-offset:4px; } .ds-nav-cta:active { transform:translateY(0); }"
+    },
+    {
+      "name": "Location Chip",
+      "kind": "chip",
+      "refersTo": "location-chip",
+      "description": "An informational route annotation that locates the shop.",
+      "html": "<span class=\"ds-location-chip\"><i aria-hidden=\"true\"></i> MONTE VISTA, CAPE TOWN</span>",
+      "css": ".ds-location-chip { display:inline-flex; align-items:center; color:var(--blue, #123ca8); font:800 1rem 'Barlow Condensed','Arial Narrow',sans-serif; text-transform:uppercase; } .ds-location-chip i { width:.55rem; height:.55rem; margin-right:.5rem; border-radius:50%; background:var(--orange, #f45114); }"
+    },
+    {
+      "name": "Route Card",
+      "kind": "card",
+      "description": "A flat timeline stage for the coffee-and-creative experience.",
+      "html": "<article class=\"ds-route-card\"><i aria-hidden=\"true\"></i><span>FIRST SIP</span><h3>GREAT BREWS</h3><p>Start with a freshly made coffee and let the day slow down.</p></article>",
+      "css": ".ds-route-card { position:relative; max-width:20rem; padding:1.6rem 1rem 2.4rem 0; border-top:3px solid var(--blue, #123ca8); color:#101010; font-family:'Barlow Condensed','Arial Narrow',sans-serif; } .ds-route-card i { position:absolute; top:-11px; left:0; width:15px; height:15px; border:4px solid var(--milk, #f6f2e8); outline:3px solid var(--blue, #123ca8); border-radius:50%; background:var(--orange, #f45114); } .ds-route-card span { display:block; margin-bottom:2rem; color:var(--blue, #123ca8); font-weight:900; } .ds-route-card h3 { margin:0 0 1rem; font:900 2rem/1 'Archivo Black',Impact,sans-serif; } .ds-route-card p { margin:0; font-size:1.15rem; line-height:1.5; }"
+    },
+    {
+      "name": "Destination Stamp",
+      "kind": "custom",
+      "description": "A circular marker that identifies A1 Brews as the endpoint of a route.",
+      "html": "<div class=\"ds-destination-stamp\"><b>A1</b><span>YOUR LOCAL STOP</span></div>",
+      "css": ".ds-destination-stamp { width:130px; height:130px; display:grid; place-content:center; text-align:center; border-radius:50%; background:var(--orange, #f45114); color:#fff; transform:rotate(-7deg); box-shadow:8px 9px 0 var(--espresso, #24130e); text-transform:uppercase; transition:transform .2s ease; } .ds-destination-stamp:hover { transform:rotate(-3deg) scale(1.03); } .ds-destination-stamp b { font:900 2.6rem/1 'Archivo Black',Impact,sans-serif; } .ds-destination-stamp span { font:900 .8rem 'Barlow Condensed','Arial Narrow',sans-serif; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Local Wayfinding Collage",
+    "overview": "A1 Brews looks like the brightest landmark on a familiar neighbourhood route. The visual system combines municipal wayfinding, hand-painted shop signage, gallery labels, and layered art materials into a confident identity that makes coffee and creativity feel inseparable.\n\nThe world is graphic, warm, and deliberately physical: ultramarine fields behave like destination signs, milk-white surfaces feel like paper, tangerine marks point and invite, and espresso brown adds the weight of coffee and ink. Oversized type, route lines, circular markers, rotated frames, and hard-offset shadows keep the experience lively without weakening its practical purpose of helping visitors find the shop.",
+    "keyCharacteristics": [
+      "High-contrast ultramarine, milk paper, tangerine, and espresso color blocking.",
+      "Condensed sign typography paired with oversized, tightly set display lettering.",
+      "Circular destination markers, route lines, map geometry, and framed art canvases.",
+      "Flat fields with tactile hard-offset shadows instead of soft luxury styling.",
+      "Mobile-first stacking that preserves strong type, bold color, and clear visit actions."
+    ],
+    "rules": [
+      { "name": "The Destination Blue Rule", "body": "Waypoint Blue owns large fields and major headings; it is a navigational anchor, not a minor decorative accent.", "section": "colors" },
+      { "name": "The Orange Means Energy Rule", "body": "Use Marker Orange for actions, annotations, nodes, and creative interruptions. Its role is to move the eye or prompt movement.", "section": "colors" },
+      { "name": "The Sign First Rule", "body": "Major headings behave like public signs: short, uppercase, tightly tracked, and immediately legible.", "section": "typography" },
+      { "name": "The Condensed Utility Rule", "body": "Supporting copy and controls use the condensed family so practical information stays compact beside the oversized display voice.", "section": "typography" },
+      { "name": "The Route Before Decoration Rule", "body": "Even when geometry overlaps or rotates, reading order, section entry points, and visit actions stay on a simple vertical route.", "section": "layout" },
+      { "name": "The Hard Shadow Rule", "body": "Use offset shadows to imply printed or mounted objects; do not introduce diffuse card shadows or glossy elevation.", "section": "elevation" },
+      { "name": "The Meaningful Circle Rule", "body": "Circular forms mark a destination, a route point, or the coffee focal object; they are not a general-purpose container shape.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do give Waypoint Blue, Milk Paper, Marker Orange, and Espresso Brown large, confident fields.",
+      "Do use orange markers and route geometry to lead visitors toward an action or destination.",
+      "Do keep major headings short enough to read as signage.",
+      "Do reserve physical rotation and hard shadows for focal objects, art frames, and actionable placards.",
+      "Do preserve a clear single-column reading route when layouts collapse on mobile."
+    ],
+    "donts": [
+      "Don't drift into beige café minimalism, soft neutral lifestyle styling, or generic luxury-coffee cues.",
+      "Don't use rounded cards as a default container pattern; curves carry destination meaning here.",
+      "Don't replace hard offset shadows with blurred, floating dashboard-card elevation.",
+      "Don't use orange as passive filler when it can act as a marker, annotation, or call to action.",
+      "Don't let collage geometry obscure factual information, navigation, or visit actions."
+    ]
+  }
+}
