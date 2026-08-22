@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/a1-brews/",
     "preview": "vite preview"
   },
   "devDependencies": {
